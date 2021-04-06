@@ -3,7 +3,6 @@
     <NavBar />
     <router-view />
     <Footer />
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
@@ -20,6 +19,7 @@ export default {
 };
 </script>
 
+// global styles
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -41,6 +41,7 @@ body {
 .container {
   height: calc(100vh - 81px - 54px);
 }
+
 h1 {
   margin: 0;
 }

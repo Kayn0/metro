@@ -4,3 +4,7 @@
     <router-link to="/">Home</router-link>
   </div>
 </template>
+
+<style scoped>
+@import "./about.scss";
+</style>

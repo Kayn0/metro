@@ -3,3 +3,7 @@
     <h1>This is the Sevices > Buying page</h1>
   </div>
 </template>
+
+<style scoped>
+@import "./services.scss";
+</style>

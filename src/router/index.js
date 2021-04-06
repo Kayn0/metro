@@ -1,15 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-//Services
-import Buying from '../views/Buying.vue'
-import Selling from '../views/Selling.vue'
-import Transferring from '../views/Transferring.vue'
-import Financing from '../views/Financing.vue'
-import Contact from '../views/Contact.vue'
-import Faq from '../views/Faq.vue'
-import Blog from '../views/Blog.vue'
+import Home from '../views/Home/Home.vue'
+import About from '../views/About/About.vue'
+import Contact from '../views/Contact/Contact.vue'
+import Faq from '../views/Faq/Faq.vue'
+import Blog from '../views/Blog/Blog.vue'
 
+//Services
+import Buying from '../views/Services/Buying.vue'
+import Selling from '../views/Services/Selling.vue'
+import Transferring from '../views/Services/Transferring.vue'
+import Financing from '../views/Services/Financing.vue'
 
 const routes = [
   {
