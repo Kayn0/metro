@@ -1,11 +1,18 @@
-# metro
+# Metro Conveyancing
 
 ## Project setup
+In the terminal navigate to an empty folder and type 
+```
+git clone https://github.com/Kayn0/metro.git
+```
+Once completed then type
 ```
 npm install
+
 ```
 
 ### Compiles and hot-reloads for development
+To start the project:
 ```
 npm run serve
 ```
