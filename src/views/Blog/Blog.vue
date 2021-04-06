@@ -4,6 +4,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "blog",
+  created() {
+    document.title = "Metro Blog";
+  },
+};
+</script>
+
 <style scoped>
 @import "./blog.scss";
 </style>

@@ -5,6 +5,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "about",
+  created() {
+    document.title = "About Us";
+  },
+};
+</script>
+
 <style scoped>
 @import "./about.scss";
 </style>

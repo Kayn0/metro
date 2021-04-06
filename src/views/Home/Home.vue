@@ -43,8 +43,8 @@
 
 export default {
   name: "Home",
-  components: {
-    // HelloWorld
+  created() {
+    document.title = "Metro Conveyancing";
   },
 };
 </script>

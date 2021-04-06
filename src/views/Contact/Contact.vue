@@ -4,6 +4,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "contact",
+  created() {
+    document.title = "Contact Us";
+  },
+};
+</script>
+
 <style scoped>
 @import "./contact.scss";
 </style>

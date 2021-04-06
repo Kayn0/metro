@@ -15,22 +15,22 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
   },
   {
     path: '/about',
     name: 'About',
-    component: About
+    component: About,
   },
   {
     path: '/services/buying',
     name: 'Buying',
-    component: Buying
+    component: Buying,
   },
   {
     path: '/services/selling',
     name: 'Selling',
-    component: Selling
+    component: Selling,
   },
   {
     path: '/services/transferring',
@@ -42,7 +42,6 @@ const routes = [
     name: 'Financing',
     component: Financing
   },
-
   {
     path: '/contact',
     name: 'Contact',
@@ -58,12 +57,13 @@ const routes = [
     name: 'blog',
     component: Blog
   }
-
 ]
 
 const router = createRouter({
   history: createWebHistory(),
   routes
 })
+
+
 
 export default router

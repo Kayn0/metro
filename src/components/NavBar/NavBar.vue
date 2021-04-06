@@ -1,7 +1,11 @@
 <template>
   <div class="navbar">
     <router-link to="/">
-      <img class="logo" alt="Metro Conveyencers Logo" src="../../assets/logo.png" />
+      <img
+        class="logo"
+        alt="Metro Conveyencers Logo"
+        src="../../assets/images/logo.png"
+      />
     </router-link>
 
     <div class="nav-links">
@@ -9,16 +13,32 @@
       <div class="relative">
         <div class="nav-link" v-on:click="isOpen = !isOpen">Services</div>
         <div class="dropdown hidden" :class="{ active: isOpen }">
-          <router-link class="nav-link" to="/services/buying">
+          <router-link
+            class="nav-link"
+            to="/services/buying"
+            v-on:click="disableDropdown()"
+          >
             Buying Property
           </router-link>
-          <router-link class="nav-link" to="/services/selling">
+          <router-link
+            class="nav-link"
+            to="/services/selling"
+            v-on:click="disableDropdown()"
+          >
             Selling Property
           </router-link>
-          <router-link class="nav-link" to="/services/transferring">
+          <router-link
+            class="nav-link"
+            to="/services/transferring"
+            v-on:click="disableDropdown()"
+          >
             Transferring Property
           </router-link>
-          <router-link class="nav-link" to="/services/financing">
+          <router-link
+            class="nav-link"
+            to="/services/financing"
+            v-on:click="disableDropdown()"
+          >
             Financing Property
           </router-link>
         </div>

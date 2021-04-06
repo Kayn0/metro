@@ -4,6 +4,15 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "selling",
+  created() {
+    document.title = "Selling Property";
+  },
+};
+</script>
+
 <style scoped>
 @import "./services.scss";
 </style>
