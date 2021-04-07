@@ -1,5 +1,4 @@
 <template>
-  <Slide right />
   <div class="navbar">
     <router-link to="/">
       <img
@@ -10,7 +9,7 @@
     </router-link>
 
     <div class="nav-links">
-      <router-link to="/" v-on:click="disableDropdown()">Home</router-link>
+      <router-link to="/" @click="disableDropdown()">Home</router-link>
       <div class="relative">
         <div
           class="nav-link"
@@ -65,7 +64,6 @@
 </template>
 
 <script>
-import { Slide } from "vue-burger-menu";
 export default {
   name: "NavBar",
   data() {
@@ -74,9 +72,7 @@ export default {
     };
   },
   props: {},
-  compontents: {
-    Slide,
-  },
+
   methods: {
     disableDropdown: function () {
       if (this.isOpen === true) {
@@ -88,5 +84,5 @@ export default {
 </script>
 
 <style scoped>
-@import "./Navbar.scss";
+@import "./Navbar.sass";
 </style>

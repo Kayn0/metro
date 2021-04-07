@@ -10,9 +10,9 @@
       <div class="links">
         <div class="row">
           <router-link to="/services/buying">
-            <div class="link button animate" @click="animate()">
+            <div class="link button">
               <div>Buying Property</div>
-              <div class="label" :class="{ 'rubberBand animated': animated }">More</div>
+              <div class="label">More</div>
             </div>
           </router-link>
           <router-link to="/services/selling">

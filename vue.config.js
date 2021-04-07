@@ -1,12 +1,10 @@
 module.exports = {
     css: {
       loaderOptions: {
-        sass: {
-          data: `
-            @import "@/scss/_variables.scss";
-            @import "@/scss/_mixins.scss";
-          `
-        }
+        sass: { //the change was made here (match the option name with file extension)
+          prependData: `
+          @import "@/components/Navbar/NavBar.sass";
+        `
       }
     }
   };
