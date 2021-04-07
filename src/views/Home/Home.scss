@@ -1,3 +1,7 @@
+#app {
+    position: fixed;
+}
+
 .home {
     align-items: center;
     background: linear-gradient(#19292e, rgba(0, 0, 0, 0)),
@@ -9,6 +13,7 @@
     display: flex;
     flex-direction: column;
     height: calc(100vh - 81px - 54px); /* screen height - navbar - footer */
+    
 }
   
 .heading {
@@ -46,20 +51,32 @@ h5 {
 .links {
     display: flex;
     flex-direction: column;
-    padding: 15px;
+    padding: 0 30px 30px;
     width: 100%;
+    margin-top: auto;
 }
   
 .row {
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
     width: 100%;
+}
+
+.links .row a:first-child {
+    margin-right: 20px;
+}
+
+.row a {
+    width: calc(100% - 40px);
+    
+    text-decoration: none;
 }
   
 .link {
     align-items: center;
     background: #fff;
-    border-left: 10px solid #8fe2c2 !important;
+    border-left: 10px solid #3A525C !important;
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     color: #3a525c;
@@ -67,11 +84,16 @@ h5 {
     display: flex;
     font-weight: bold;
     height: 62px;
-    margin: 15px;
+    margin: 0;
     padding: 0 20px;
+    text-align: left;
     text-transform: uppercase;
     transition: all 0.3s ease;
-    width: 100%;
+}
+
+.link:hover {
+    border-left: 10px solid #2fc9d3 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
   
 .link .label {
@@ -89,7 +111,7 @@ h5 {
     font-family: "Helvetica", sans-serif;
     background-color: #dd5761;
     border: 0;
-    border-radius: 10px;
+    border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     color: #fff;
     cursor: pointer;
@@ -99,6 +121,242 @@ h5 {
     margin: auto 30px 30px 0;
     padding: 0 20px;
     text-transform: uppercase;
+    transition: box-shadow 0.3s ease;
     min-width: 300px;
 }
+
+.quote-btn:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
   
+.row .a:first-child {
+    margin-right: 20px;
+}
+
+.links .row:second-child {
+    margin-right: 20px;
+}
+
+link:hover > label {
+    -webkit-animation-name: jello;
+    animation-name: jello;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+}
+
+@media only screen and (min-width: 1821px) {
+    .links {
+      flex-direction: row;
+    }
+    .links .row:first-child {
+        padding-right: 20px;
+      }
+}
+
+@media only screen and (max-width: 1820px) {
+    .links {
+        flex-direction: column;
+    }   
+}
+
+@media only screen and (max-width: 890px) {
+    .links .row {
+        flex-direction: column;
+    }
+    .row .link:first-child {
+        margin-right: 0;
+    }
+    .link {
+        width: calc(100% - 40px);
+        margin-top: 10px;
+    }
+    .row {
+        padding-top: 0;
+    }
+
+    .row a {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .heading {
+        margin-top: 60px;
+    }
+}
+
+@-webkit-keyframes jello {
+    from,
+    11.1%,
+    to {
+      -webkit-transform: none;
+      transform: none;
+    }
+  
+    22.2% {
+      -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+      transform: skewX(-12.5deg) skewY(-12.5deg);
+    }
+  
+    33.3% {
+      -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+      transform: skewX(6.25deg) skewY(6.25deg);
+    }
+  
+    44.4% {
+      -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+      transform: skewX(-3.125deg) skewY(-3.125deg);
+    }
+  
+    55.5% {
+      -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+      transform: skewX(1.5625deg) skewY(1.5625deg);
+    }
+  
+    66.6% {
+      -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+      transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    }
+  
+    77.7% {
+      -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+      transform: skewX(0.390625deg) skewY(0.390625deg);
+    }
+  
+    88.8% {
+      -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+      transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    }
+  }
+  
+  @keyframes jello {
+    from,
+    11.1%,
+    to {
+      -webkit-transform: none;
+      transform: none;
+    }
+  
+    22.2% {
+      -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+      transform: skewX(-12.5deg) skewY(-12.5deg);
+    }
+  
+    33.3% {
+      -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+      transform: skewX(6.25deg) skewY(6.25deg);
+    }
+  
+    44.4% {
+      -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+      transform: skewX(-3.125deg) skewY(-3.125deg);
+    }
+  
+    55.5% {
+      -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+      transform: skewX(1.5625deg) skewY(1.5625deg);
+    }
+  
+    66.6% {
+      -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+      transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    }
+  
+    77.7% {
+      -webkit-transform: skewX(0.390625deg) skewY(0.390625deg);
+      transform: skewX(0.390625deg) skewY(0.390625deg);
+    }
+  
+    88.8% {
+      -webkit-transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+      transform: skewX(-0.1953125deg) skewY(-0.1953125deg);
+    }
+  }
+  
+  .jello {
+    -webkit-animation-name: jello;
+    animation-name: jello;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+  }
+
+
+  @-webkit-keyframes rubberBand {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(.95, 1.05, 1);
+      transform: scale3d(.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, .95, 1);
+      transform: scale3d(1.05, .95, 1);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  @keyframes rubberBand {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      -webkit-transform: scale3d(.95, 1.05, 1);
+      transform: scale3d(.95, 1.05, 1);
+    }
+  
+    75% {
+      -webkit-transform: scale3d(1.05, .95, 1);
+      transform: scale3d(1.05, .95, 1);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+  }

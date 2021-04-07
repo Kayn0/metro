@@ -2,10 +2,10 @@
   <div class="footer">
     <div>
       <span class="bold">SERVICES</span>
-      <span> - Buying - Selling - Transferring - Financing</span>
-      <span class="bold label">PHONE</span><span>(02) 9669 6687</span>
-      <span class="bold label">FAX</span>(02) 8580 4859
-      <span class="bold label">ADDRESS</span> PO Box 310, Rosebery, NSW 1445
+      <span> &#8226; Buying &#8226; Selling &#8226; Transferring &#8226; Financing</span>
+      <span class="bold label">PHONE </span><span>(02) 9669 6687</span>
+      <span class="bold label">FAX </span>(02) 8580 4859
+      <span class="bold label">ADDRESS </span> PO Box 310, Rosebery, NSW 1445
     </div>
     <div class="social-icons">
       <span class="fb">

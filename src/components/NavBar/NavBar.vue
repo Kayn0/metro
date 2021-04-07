@@ -1,4 +1,5 @@
 <template>
+  <Slide right />
   <div class="navbar">
     <router-link to="/">
       <img
@@ -64,6 +65,7 @@
 </template>
 
 <script>
+import { Slide } from "vue-burger-menu";
 export default {
   name: "NavBar",
   data() {
@@ -72,6 +74,9 @@ export default {
     };
   },
   props: {},
+  compontents: {
+    Slide,
+  },
   methods: {
     disableDropdown: function () {
       if (this.isOpen === true) {

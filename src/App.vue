@@ -21,12 +21,19 @@ export default {
 
 // global styles
 <style>
+@font-face {
+  font-family: "Helvetica-Light";
+  src: local("Helvetica-Light"),
+    url(./assets/fonts/helvetica-light.ttf) format("truetype");
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: antialiased;
   text-align: center;
   color: #2c3e50;
+  width: 100vw;
 }
 
 body {
@@ -44,5 +51,9 @@ body {
 
 h1 {
   margin: 0;
+}
+
+button {
+  outline: none;
 }
 </style>

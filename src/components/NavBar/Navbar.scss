@@ -82,12 +82,26 @@ height: 44px;
 
 .dropdown {
     background: white;
+    border-radius: 2px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     color: #19292e;
     display: flex;
     flex-direction: column;
+    font-family: "Helvetica-Light";
     font-weight: normal;
     position: absolute;
+}
+
+.navbar .dropdown a:hover {
+    background-color: #D6F7FF;
+    box-shadow: none;
+}
+.navbar .dropdown a:first-child {
+    border-radius: 2px 2px 0 0;
+}
+
+.navbar .dropdown a:last-child {
+    border-radius: 0 0 2px 2px;
 }
 
 .dropdown.hidden {
