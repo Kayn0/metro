@@ -106,7 +106,6 @@ export default {
   top: 0;
   height: 100vh;
   z-index: 999;
-  padding: 30px 0;
   width: 300px;
 }
 
@@ -117,6 +116,15 @@ ul.sidebar-panel-nav {
   line-height: 44px;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+ul.sidebar-panel-nav a:hover {
+  background-color: #d6f7ff;
+}
+
+ul.sidebar-panel-nav .router-link-active:hover {
+  background: #2fc9d3;
 }
 
 a:-webkit-any-link {

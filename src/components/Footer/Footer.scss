@@ -60,13 +60,13 @@ cursor: pointer;
 }
 @media only screen and (max-width: 1100px) {
     .container {
-        height: calc(100vh - 81px - 140px) !important;
+        height: calc(100vh - 81px - 120px) !important;
     }
 
     .footer {
         align-items: center;    
         display: flex;
-        height: 140px;
+        height: 120px;
     }
 
     .footer-info {
@@ -78,5 +78,9 @@ cursor: pointer;
         display: flex;
         flex-direction: row;
         margin-bottom: 8px;
+    }
+
+    .flexed:last-child {
+        margin-bottom: 0;
     }
 }

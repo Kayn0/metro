@@ -38,9 +38,25 @@
           </router-link>
         </div>
       </div>
-      <button :class="{ 'jello animated': animated }" class="quote-btn">
+      <button @click="isShowingQuoteRequest = !isShowingQuoteRequest" class="quote-btn">
         Request A Quote
       </button>
+      <div v-if="isShowingQuoteRequest">
+        <RequestQuote
+          :parentData="isShowingQuoteRequest"
+          v-on:emitCloseModal="closeModal"
+        />
+      </div>
+
+      <!-- <transition name="bounce" class="backdrop">
+        <div v-if="isShowingQuoteRequest" class="flex-center">
+          <div class="modal animate__animated animate__bounceInUp">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis enim
+            libero, at lacinia diam fermentum id. Pellentesque habitant morbi tristique
+            senectus et netus.
+          </div>
+        </div>
+      </transition> -->
     </div>
   </div>
 </template>
@@ -48,23 +64,22 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
+import RequestQuote from "@/components/RequestQuote/RequestQuote.vue";
 
 export default {
   name: "Home",
   data() {
     return {
-      animated: false,
+      isShowingQuoteRequest: false,
     };
   },
   methods: {
-    animate: function () {
-      console.log("TEST");
-      var self = this;
-      self.animated = true;
-      setTimeout(function () {
-        self.animated = false;
-      }, 1000);
+    closeModal() {
+      this.isShowingQuoteRequest = false;
     },
+  },
+  components: {
+    RequestQuote,
   },
   created() {
     document.title = "Metro Conveyancing";

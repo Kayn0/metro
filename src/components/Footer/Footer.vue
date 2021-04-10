@@ -7,8 +7,7 @@
         <span class="footer-links">
           <router-link to="/services/buying">Buying</router-link> &#8226;
           <router-link to="/services/selling">Selling</router-link> &#8226;
-          <router-link to="/services/transferring">Transferring</router-link>
-          &#8226;
+          <router-link to="/services/transferring">Transferring</router-link>&#8226;
           <router-link to="/services/financing">Financing</router-link>
         </span>
       </div>
@@ -51,5 +50,5 @@ export default {
 </script>
 
 <style scoped>
-@import "./Footer.scss";
+@import "./footer.scss";
 </style>
