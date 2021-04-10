@@ -1,6 +1,9 @@
 <template>
   <div>
+    <!-- Navigation for web -->
     <NavBar class="web-nav" />
+
+    <!-- Navigation for Mobile -->
     <div class="mobile-nav">
       <nav class="main-nav">
         <router-link to="/">
@@ -12,11 +15,13 @@
         </router-link>
         <Burger />
       </nav>
-
       <Sidebar></Sidebar>
     </div>
 
+    <!-- Loaded Page View -->
     <router-view />
+
+    <!-- Footer -->
     <Footer />
   </div>
 </template>

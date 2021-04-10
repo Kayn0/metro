@@ -106,7 +106,7 @@ export default {
   top: 0;
   height: 100vh;
   z-index: 999;
-  padding: 3rem 20px 2rem 20px;
+  padding: 30px 0;
   width: 300px;
 }
 
@@ -118,14 +118,16 @@ ul.sidebar-panel-nav {
   display: flex;
   flex-direction: column;
 }
+
 a:-webkit-any-link {
   text-decoration: none;
   color: #19292e;
 }
+
 ul.sidebar-panel-nav > ul > a {
   color: #19292e;
   text-decoration: none !important;
-  font-size: 1.5rem;
+  font-size: 24px;
   display: block;
   padding-bottom: 0.5em;
 }

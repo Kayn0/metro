@@ -14,6 +14,7 @@
         <div
           class="nav-link"
           v-on:click="isOpen = !isOpen"
+          @focusout="disableDropdown"
           v-bind:class="{
             activateBtn:
               $route.path == '/services/buying' ||
@@ -72,10 +73,26 @@ export default {
     };
   },
   props: {},
-
+  created() {
+    window.addEventListener("click", (e) => {
+      console.log("e", e);
+      if (!this.$el.contains(e.target)) {
+        this.isOpen = false;
+      }
+    });
+  },
   methods: {
     disableDropdown: function () {
       if (this.isOpen === true) {
+        this.isOpen = false;
+      }
+    },
+
+    handleFocus() {
+      // do something here
+    },
+    handleFocusOut(item) {
+      if (item.target !== "div.nav-link") {
         this.isOpen = false;
       }
     },
@@ -84,5 +101,5 @@ export default {
 </script>
 
 <style scoped>
-@import "./Navbar.sass";
+@import "./Navbar.scss";
 </style>

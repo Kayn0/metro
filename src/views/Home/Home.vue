@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home" class="container">
     <div class="heading">
       <h1>Buying or selling a home?</h1>
       <h1 class="bold">We can help</h1>

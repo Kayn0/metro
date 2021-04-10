@@ -1,12 +1,34 @@
 <template>
   <div class="footer">
-    <div>
-      <span class="bold">SERVICES</span>
-      <span> &#8226; Buying &#8226; Selling &#8226; Transferring &#8226; Financing</span>
-      <span class="bold label">PHONE </span><span>(02) 9669 6687</span>
-      <span class="bold label">FAX </span>(02) 8580 4859
-      <span class="bold label">ADDRESS </span> PO Box 310, Rosebery, NSW 1445
+    <div class="footer-info bold">
+      <div class="flexed">
+        <span class="right-margin-small">SERVICES</span>
+
+        <span class="footer-links">
+          <router-link to="/services/buying">Buying</router-link> &#8226;
+          <router-link to="/services/selling">Selling</router-link> &#8226;
+          <router-link to="/services/transferring">Transferring</router-link>
+          &#8226;
+          <router-link to="/services/financing">Financing</router-link>
+        </span>
+      </div>
+
+      <div class="flexed">
+        <span>PHONE</span>
+        <div>(02) 9669 6687</div>
+      </div>
+
+      <div class="flexed">
+        <span class="">FAX</span>
+        <div>(02) 8580 4859</div>
+      </div>
+
+      <div class="flexed">
+        <span>ADDRESS</span>
+        <div>PO Box 310, Rosebery, NSW 1445</div>
+      </div>
     </div>
+
     <div class="social-icons">
       <span class="fb">
         <font-awesome-icon :icon="['fab', 'facebook-square']" />
@@ -29,38 +51,5 @@ export default {
 </script>
 
 <style scoped>
-.footer {
-  align-items: center;
-  background: #3a525c;
-  color: #fff;
-  display: flex;
-  font-size: 13px;
-  height: 54px;
-  padding-left: 30px;
-}
-
-.footer span.bold {
-  font-weight: bold;
-}
-
-.label {
-  margin-left: 20px;
-}
-
-.social-icons {
-  font-size: 20px;
-  margin-left: auto;
-}
-
-.social-icons i,
-.social-icons svg {
-  cursor: pointer;
-  padding-right: 30px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-}
-
-.social-icons svg:hover {
-  color: #2fc9d3;
-}
+@import "./Footer.scss";
 </style>
