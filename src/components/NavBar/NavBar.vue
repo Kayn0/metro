@@ -75,7 +75,6 @@ export default {
   props: {},
   created() {
     window.addEventListener("click", (e) => {
-      console.log("e", e);
       if (!this.$el.contains(e.target)) {
         this.isOpen = false;
       }

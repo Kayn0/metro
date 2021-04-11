@@ -20,8 +20,6 @@
 
     <!-- Loaded Page View -->
     <router-view />
-
-    <!-- Footer -->
     <Footer />
   </div>
 </template>
@@ -35,16 +33,36 @@ import Sidebar from "@/components/menu/Sidebar.vue";
 
 export default {
   name: "App",
+  data() {
+    return {
+      phone: "",
+    };
+  },
   components: {
     NavBar,
     Footer,
     Burger,
     Sidebar,
   },
+  methods: {
+    /**
+     * @param {string} number
+     * the phone number inputted by user, will be formatted along with country code
+     * // Ex: inputted: (AU) 0432 432 432
+     * // number = '+61432421546'
+     *
+     * @param {Boolean} isValid
+     * @param {string} country
+     */
+    onInput({ number, isValid, country }) {
+      console.log(number, isValid, country);
+    },
+  },
 };
 </script>
 
 // global styles
+
 <style>
 @font-face {
   font-family: "Helvetica-Light";
@@ -102,6 +120,26 @@ button {
 .main-nav a.router-link-exact-active {
   background-color: transparent;
   box-shadow: none;
+}
+.group {
+  position: relative !important;
+  margin-bottom: 45px;
+}
+
+.icon-btn {
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 44px;
+  transition: color 0.3s ease;
+  width: 44px;
+}
+
+.icon-btn:hover {
+  color: #030303 !important;
 }
 
 @media only screen and (max-width: 1000px) {
