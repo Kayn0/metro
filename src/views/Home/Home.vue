@@ -39,7 +39,7 @@
         </div>
       </div>
       <button @click="isShowingQuoteRequest = !isShowingQuoteRequest" class="quote-btn">
-        Request A Quote
+        Request Quote
       </button>
       <div v-if="isShowingQuoteRequest">
         <RequestQuote

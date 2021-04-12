@@ -134,6 +134,7 @@ button {
   align-items: center;
   font-size: 16px;
   height: 44px;
+  margin-right: 10px;
   transition: color 0.3s ease;
   width: 44px;
 }

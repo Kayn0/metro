@@ -3,7 +3,7 @@
     <div class="flex-center">
       <div class="modal animate__animated animate__zoomIn animate__faster">
         <div class="header">
-          <div class="title">Request A Quote</div>
+          <div class="title">Request Quote</div>
           <div @click="closeModal" class="icon-btn">
             <font-awesome-icon :icon="['fas', 'times']" />
           </div>
@@ -18,38 +18,8 @@
             enctype="text/plain"
             target="_blank"
           >
-            <it-input
-              v-model="form.firstName.text"
-              label-top="First Name"
-              v-on:keyup="checkForm"
-              type="text"
-              :class="{ danger: form.firstName.hasError }"
-            />
-            <it-input
-              v-model="form.lastName.text"
-              label-top="Last Name"
-              v-on:keyup="checkForm"
-              type="text"
-              :class="{ danger: form.lastName.hasError }"
-            />
-            <it-input
-              v-model="form.email.text"
-              label-top="Email"
-              v-on:keyup="checkForm"
-              type="text"
-              :class="{ danger: form.email.hasError }"
-            />
-            <it-input
-              v-model="form.phone.text"
-              label-top="Phone"
-              v-on:keyup="checkForm"
-              type="number"
-              hide-controls="false"
-              :class="{ danger: form.phone.hasError }"
-            />
-
             <div class="checkbox">
-              <label>What would you like to enquire about?</label>
+              <div class="title">What would you like a quote for?</div>
               <it-checkbox
                 type="primary"
                 label="Buying Property"
@@ -74,18 +44,69 @@
               />
 
               <it-checkbox type="primary" label="Other" v-model="form.isOther" />
+            </div>
+            <it-textarea
+              id="emailContent"
+              name=""
+              v-if="form.isOther === true"
+              v-model="form.info"
+              label-top="How can we help?"
+              class="animate__animated animate__zoomIn animate__faster textarea"
+            >
+            </it-textarea>
+            <div
+              class="inputs"
+              v-if="
+                form.isBuying ||
+                form.isSelling ||
+                form.isTransferring ||
+                form.isFinancing ||
+                (form.info && form.isOther)
+              "
+            >
+              <div class="title no-bottom-margin">Enter your details</div>
+              <it-input
+                v-model="form.firstName.text"
+                label-top="First Name"
+                v-on:keyup="checkForm"
+                type="text"
+                :class="{ danger: form.firstName.hasError }"
+              />
+              <it-input
+                v-model="form.lastName.text"
+                label-top="Last Name"
+                v-on:keyup="checkForm"
+                type="text"
+                :class="{ danger: form.lastName.hasError }"
+              />
+              <it-input
+                v-model="form.email.text"
+                label-top="Email"
+                v-on:keyup="checkForm"
+                type="text"
+                :class="{ danger: form.email.hasError }"
+              />
+              <it-input
+                v-model="form.phone.text"
+                label-top="Phone"
+                v-on:keyup="checkForm"
+                type="number"
+                hide-controls="false"
+                :class="{ danger: form.phone.hasError }"
+              />
 
-              <it-textarea
-                id="emailContent"
-                name=""
-                v-if="form.isOther === true"
-                v-model="form.info"
-                label-top="Additional Information"
-                class="animate__animated animate__zoomIn animate__faster textarea"
-              >
-              </it-textarea>
-
-              <input class="submit-btn" type="submit" value="Submit" />
+              <input
+                class="submit-btn"
+                type="submit"
+                value="Submit"
+                :class="{
+                  disabled:
+                    !form.firstName.text ||
+                    !form.lastName.text ||
+                    !form.email.text ||
+                    !form.phone.text,
+                }"
+              />
             </div>
           </form>
         </div>
