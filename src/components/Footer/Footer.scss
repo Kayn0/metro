@@ -5,7 +5,9 @@
     display: flex;
     font-size: 13px;
     height: 54px;
-    padding-left: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer .bold span {
@@ -39,6 +41,10 @@ cursor: pointer;
     display: inline;  
 }
 
+.footer-info {
+    padding-left: 30px;
+}
+
 .footer-links {
     margin-right: 10px;
 }
@@ -58,6 +64,12 @@ cursor: pointer;
 .right-margin-small {
     margin-right: 5px;
 }
+
+.footer-links a.router-link-exact-active {
+    background: none;
+    box-shadow: none;
+}
+
 @media only screen and (max-width: 1100px) {
     .container {
         height: calc(100vh - 81px - 120px) !important;
@@ -83,4 +95,6 @@ cursor: pointer;
     .flexed:last-child {
         margin-bottom: 0;
     }
+
+
 }

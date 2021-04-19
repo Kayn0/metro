@@ -1,4 +1,6 @@
-
+.nav-bar {
+  
+}
 
 .navbar.web-nav .active {
     display: flex !important;
@@ -23,11 +25,15 @@
 .navbar {
     background: #19292e;
     border-bottom: 1px solid #2fc9d3;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     color: #fff;
     display: flex;
     font-size: 16px;
     height: 80px;
     text-transform: uppercase;
+    z-index: 99999;
+    position: fixed;
+    width: 100vw;
 }
 
 .navbar.web-nav .nav-links {
@@ -120,6 +126,7 @@ a.router-link-exact-active {
 .navbar:first-child a {
     box-shadow: none;
 }
+
 .navbar.web-nav .dropdown.hidden {
     display: none;
 }

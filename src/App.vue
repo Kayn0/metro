@@ -146,9 +146,16 @@ button {
 @media only screen and (max-width: 1000px) {
   .mobile-nav {
     display: flex !important;
+    z-index: 99999;
+    position: fixed;
+    width: 100vw;
   }
   .web-nav {
     display: none !important;
+  }
+
+  .banner {
+    padding-top: 0;
   }
 }
 </style>

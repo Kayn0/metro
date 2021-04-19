@@ -10,7 +10,7 @@
       <div class="links">
         <div class="row">
           <router-link to="/services/buying">
-            <div class="link button">
+            <div class="link button buying">
               <div>Buying Property</div>
               <div class="label">More</div>
             </div>

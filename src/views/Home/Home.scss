@@ -94,7 +94,11 @@ h5 {
     border-left: 10px solid #2fc9d3 !important;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-  
+
+.link.buying:hover {
+    border-left: 10px solid #8FE2C2 !important;
+}
+
 .link .label {
     margin-left: auto;
     background: #d1dfe8;
