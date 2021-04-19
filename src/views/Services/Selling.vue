@@ -1,6 +1,16 @@
 <template>
   <div id="selling" class="container">
-    <h1>This is the Sevices > Selling page</h1>
+    <div class="banner">
+      <div class="heading-container">
+        <h1>SELLING PROPERTY</h1>
+      </div>
+      <div class="image-container">
+        <!-- <img class="bg-img" alt="City Silhouette" src="../../assets/images/buying.png" /> -->
+      </div>
+    </div>
+    <div class="content">
+      <h3>First Time Selling?</h3>
+    </div>
   </div>
 </template>
 

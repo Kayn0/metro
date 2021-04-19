@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     height: calc(100vh - 81px - 54px); /* screen height - navbar - footer */ 
+    padding-top: 81px;
 }
   
 .heading {
