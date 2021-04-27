@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="content">
-      <h3>First Time Buyer?</h3>
+      <h3>Are you ready to buy?</h3>
       <p>
         Metro Conveyancing can guide you through the process of buying real estate. We aim
         to make the rights and responsibilities of buyers and sellers clear so you can
@@ -21,13 +21,55 @@
         the process and the various stages and legal requirements involved. Click the
         Request Quote button for a obligation free quote to get started.
       </p>
+      <div class="flexed">
+        <div class="step">
+          <div class="step-header">Step 1</div>
+          <div class="step-text">Request a quote</div>
+        </div>
+
+        <div class="step">
+          <div class="step-header">Step 2</div>
+          <div class="step-text">
+            Review your quote and contact us if you have any questions
+          </div>
+        </div>
+
+        <div class="step">
+          <div class="step-header">Step 3</div>
+          <div class="step-text">Engage our services</div>
+        </div>
+      </div>
+      <button @click="isShowingQuoteRequest = !isShowingQuoteRequest" class="quote-btn">
+        Request Quote
+      </button>
+      <div v-if="isShowingQuoteRequest">
+        <RequestQuote
+          :parentData="isShowingQuoteRequest"
+          v-on:emitCloseModal="closeModal"
+        />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import RequestQuote from "@/components/RequestQuote/RequestQuote.vue";
+
 export default {
   name: "buying",
+  data() {
+    return {
+      isShowingQuoteRequest: false,
+    };
+  },
+  methods: {
+    closeModal() {
+      this.isShowingQuoteRequest = false;
+    },
+  },
+  components: {
+    RequestQuote,
+  },
   created() {
     document.title = "Buying Property";
   },

@@ -43,7 +43,7 @@
                 v-model="form.isFinancing"
               />
 
-              <it-checkbox type="primary" label="Other" v-model="form.isOther" />
+              <it-checkbox type="primary" label="Something else" v-model="form.isOther" />
             </div>
             <it-textarea
               id="emailContent"

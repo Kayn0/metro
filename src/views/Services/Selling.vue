@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="content">
-      <h3>First Time Selling?</h3>
+      <h3>First time selling?</h3>
     </div>
   </div>
 </template>

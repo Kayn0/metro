@@ -121,6 +121,7 @@ button {
   background-color: transparent;
   box-shadow: none;
 }
+
 .group {
   position: relative !important;
   margin-bottom: 45px;
@@ -141,6 +142,10 @@ button {
 
 .icon-btn:hover {
   color: #030303 !important;
+}
+
+.flexed {
+  display: flex;
 }
 
 @media only screen and (max-width: 1000px) {
