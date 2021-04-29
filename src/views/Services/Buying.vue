@@ -21,7 +21,7 @@
         the process and the various stages and legal requirements involved. Click the
         Request Quote button for a obligation free quote to get started.
       </p>
-      <div class="flexed">
+      <!-- <div class="flexed">
         <div class="step">
           <div class="step-header">Step 1</div>
           <div class="step-text">Request a quote</div>
@@ -38,7 +38,7 @@
           <div class="step-header">Step 3</div>
           <div class="step-text">Engage our services</div>
         </div>
-      </div>
+      </div> -->
       <button @click="isShowingQuoteRequest = !isShowingQuoteRequest" class="quote-btn">
         Request Quote
       </button>

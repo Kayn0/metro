@@ -1,6 +1,14 @@
 <template>
   <div id="financing" class="container">
-    <h1>This is the Sevices > Financing page</h1>
+    <div class="banner">
+      <div class="heading-container">
+        <h1>FINANCING PROPERTY</h1>
+      </div>
+      <div class="image-container"></div>
+    </div>
+    <div class="content">
+      <h3>This is the Sevices > Financing page</h3>
+    </div>
   </div>
 </template>
 
