@@ -1,11 +1,17 @@
-#buying {
+#buying,
+#selling,
+#transferring,
+#financing {
     height: calc(100vh - 54px);
     overflow-y: auto;
     overflow-x: hidden;
     background: #fafafa;
 }
 
-#buying .quote-btn {
+#buying .quote-btn,
+#selling .quote-btn,
+#transferring .quote-btn,
+#financing .quote-btn {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -23,7 +29,7 @@
 }
 
 .banner .heading-container {
-    color: #D1DFE8;
+    color: #fff;
     font-size: 48px;
     height: 50px;
     max-width: 550px;
@@ -51,10 +57,17 @@
 
     
 }
-    /* // background: linear-gradient(#19292e, rgba(0, 0, 0, 0)), 
-    // url(../../assets/images/buying.png) no-repeat bottom center; */
+
+#buying .banner .image-container {
+    background: linear-gradient(rgba(0,0,0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(../../assets/images/buying-bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+
 #selling .banner .image-container {
-    background: url(../../assets/images/selling-bg1.jpg) no-repeat center center;
+    background: linear-gradient(rgba(83, 54, 54, 0.1), rgba(0, 0, 0, 0.1)),
+        url(../../assets/images/selling-bg1.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -64,7 +77,8 @@
 }
 
 #transferring .banner .image-container {
-    background: url(../../assets/images/transferring-bg.jpeg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../../assets/images/transferring-bg.jpeg) no-repeat center center;
     background-size: cover;
 }
 
