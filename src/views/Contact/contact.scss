@@ -1,3 +1,12 @@
 #contact {
-    padding-top: 81px;
+    height: calc(100vh - 54px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fafafa;
+}
+
+#contact .banner .image-container {
+    background: linear-gradient(rgba(83, 54, 54, 0.1), rgba(0, 0, 0, 0.1)),
+        url(../../assets/images/contact-2.jpg) no-repeat center center;
+    background-size: cover;
 }

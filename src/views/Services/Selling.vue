@@ -4,9 +4,7 @@
       <div class="heading-container">
         <h1>SELLING PROPERTY</h1>
       </div>
-      <div class="image-container">
-        <!-- <img class="bg-img" alt="City Silhouette" src="../../assets/images/buying.png" /> -->
-      </div>
+      <div class="image-container"></div>
     </div>
     <div class="content">
       <h3>First time selling?</h3>
