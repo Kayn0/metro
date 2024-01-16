@@ -3,63 +3,15 @@
     <router-link to="/">
       <img
         class="logo"
-        alt="Metro Conveyencers Logo"
-        src="../../assets/images/logo.png"
+        alt="Kane Maslen logo"
+        src="../../assets/images/kane-maslen-logo.png"
       />
     </router-link>
 
     <div class="nav-links">
-      <router-link to="/" @click="disableDropdown()">Home</router-link>
-      <div class="relative">
-        <div
-          class="nav-link"
-          v-on:click="isOpen = !isOpen"
-          @focusout="disableDropdown"
-          v-bind:class="{
-            activateBtn:
-              $route.path == '/services/buying' ||
-              $route.path == '/services/selling' ||
-              $route.path == '/services/financing' ||
-              $route.path == '/services/transferring',
-          }"
-        >
-          Services
-        </div>
-        <div class="dropdown hidden" :class="{ active: isOpen }">
-          <router-link
-            class="nav-link"
-            to="/services/buying"
-            v-on:click="disableDropdown()"
-          >
-            Buying Property
-          </router-link>
-          <router-link
-            class="nav-link"
-            to="/services/selling"
-            v-on:click="disableDropdown()"
-          >
-            Selling Property
-          </router-link>
-          <router-link
-            class="nav-link"
-            to="/services/transferring"
-            v-on:click="disableDropdown()"
-          >
-            Transferring Property
-          </router-link>
-          <router-link
-            class="nav-link"
-            to="/services/financing"
-            v-on:click="disableDropdown()"
-          >
-            Financing Property
-          </router-link>
-        </div>
-      </div>
+      <router-link to="/" @click="disableDropdown()">Work</router-link>
       <router-link to="/about" v-on:click="disableDropdown()">About</router-link>
       <router-link to="/contact" v-on:click="disableDropdown()">Contact</router-link>
-      <router-link to="/faq" v-on:click="disableDropdown()">FAQ'S</router-link>
-      <router-link to="/blog" v-on:click="disableDropdown()">Blog</router-link>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 {
-  "name": "metro",
+  "name": "Kane-Maslen",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,9 +13,9 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/vue-fontawesome": "^3.0.0-3",
     "animate.css": "^4.1.1",
-    "core-js": "^3.6.5",
+    "core-js": "^3.35.0",
     "equal-vue": "^0.74.0",
-    "vue": "^3.0.0",
+    "vue": "^3.4.14",
     "vue-meta": "^2.4.0",
     "vue-router": "^4.0.0-0"
   },

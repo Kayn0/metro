@@ -2,14 +2,6 @@
   <div class="footer">
     <div class="footer-info bold">
       <div class="flexed">
-        <span class="right-margin-small">SERVICES</span>
-
-        <span class="footer-links">
-          <router-link to="/services/buying">Buying</router-link> &#8226;
-          <router-link to="/services/selling">Selling</router-link> &#8226;
-          <router-link to="/services/transferring">Transferring</router-link> &#8226;
-          <router-link to="/services/financing">Financing</router-link>
-        </span>
       </div>
 
       <div class="flexed">

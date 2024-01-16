@@ -76,7 +76,7 @@ export default {
   -moz-osx-font-smoothing: antialiased;
   text-align: center;
   color: #2c3e50;
-  width: 100vw;
+  width: 100%;
   background: #fafafa;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 .container {
-  height: calc(100vh - 81px - 54px);
+  height: calc(80vh - 80px);
 }
 
 h1 {
@@ -108,7 +108,7 @@ button {
 .main-nav {
   justify-content: space-between;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   background: #19292e;
   border-bottom: 1px solid #2fc9d3;
   color: #fff;
@@ -154,7 +154,7 @@ button {
     display: flex !important;
     z-index: 99999;
     position: fixed;
-    width: 100vw;
+    width: 100%;
   }
   .web-nav {
     display: none !important;

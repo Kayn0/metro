@@ -38,9 +38,11 @@
           </router-link>
         </div>
       </div>
+
       <button @click="isShowingQuoteRequest = !isShowingQuoteRequest" class="quote-btn">
         Request Quote
       </button>
+
       <div v-if="isShowingQuoteRequest">
         <RequestQuote
           :parentData="isShowingQuoteRequest"
@@ -82,7 +84,7 @@ export default {
     RequestQuote,
   },
   created() {
-    document.title = "Metro Conveyancing";
+    document.title = "Kane Maslen - Portfolio";
   },
 };
 </script>

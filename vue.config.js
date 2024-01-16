@@ -5,8 +5,7 @@ module.exports = {
         sass: { //the change was made here (match the option name with file extension)
           
           prependData: `
-          @import "@/components/Navbar/NavBar.scss";
-          @import "@/components/RequestQuote/requestQuote.scss";
+          @import "@/components/Navbar/NavBar.scss";         
         `
       }
     }

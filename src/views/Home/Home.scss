@@ -3,17 +3,17 @@
 }
 
 #home {
-    align-items: center;
-    background: linear-gradient(#19292e, rgba(0, 0, 0, 0)),
-      url(../../assets/images/bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    //align-items: center;
+    //background: linear-gradient(#19292e, rgba(0, 0, 0, 0)),
+    //  url(../../assets/images/bg.jpg) no-repeat center center fixed;
+    //-webkit-background-size: cover;
+    //-moz-background-size: cover;
+    //-o-background-size: cover;
+    //background-size: cover;
     display: flex;
-    flex-direction: column;
-    height: calc(100vh - 81px - 54px); /* screen height - navbar - footer */ 
-    padding-top: 81px;
+    //flex-direction: column;
+    //height: calc(100vh - 81px - 54px); /* screen height - navbar - footer */
+    //padding-top: 81px;
 }
   
 .heading {
