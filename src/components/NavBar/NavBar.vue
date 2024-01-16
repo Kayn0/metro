@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <router-link to="/">
+    <router-link to="/" class="router">
       <img
         class="logo"
         alt="Kane Maslen logo"

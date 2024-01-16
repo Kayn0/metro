@@ -32,6 +32,11 @@
     text-transform: uppercase;
     z-index: 99999;
     width: 100%;
+    a.router{
+        align-items: center;
+        display: flex;
+        height: 100%;
+    }
 }
 
 .navbar.web-nav .nav-links {

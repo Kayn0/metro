@@ -18,14 +18,17 @@
       </div>
     </div>
     <div class="projects">
-
+      <router-link to="/online-bookings">
       <div class="project">
         <h3>Online Bookings</h3>
       </div>
+      </router-link>
 
+      <router-link to="/sales-dashboard">
       <div class="project">
         <h3>Sales Dashboard</h3>
       </div>
+      </router-link>
 
       <div class="project">
         <h3>One Racing League</h3>

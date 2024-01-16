@@ -69,9 +69,20 @@ export default {
   src: local("Helvetica-Light"),
     url(./assets/fonts/helvetica-light.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Lexend-Regular";
+  src: local("Lexend-Regular"),
+  url(./assets/fonts/Lexend-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lexend-Light";
+  src: local("Lexend-Light"),
+  url(./assets/fonts/Lexend-Light.ttf) format("truetype");
+}
 
 #app {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Lexend-Regular, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
   text-align: center;
@@ -82,7 +93,7 @@ export default {
 
 body {
   margin: 0;
-  font-family: "Helvetica", "Helvetica Neue", sans-serif !important;
+  font-family: "Lexend-Regular", "Helvetica Neue", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-height: 100vh;
