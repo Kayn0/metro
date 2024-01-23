@@ -10,7 +10,7 @@
           <img
             class="logo"
             alt="Metro Conveyencers Logo"
-            src="@/assets/images/logo.png"
+            src="@/assets/images/kane-maslen-logo.png"
           />
         </router-link>
         <Burger />
@@ -69,6 +69,13 @@ export default {
   src: local("Helvetica-Light"),
     url(./assets/fonts/helvetica-light.ttf) format("truetype");
 }
+
+@font-face {
+  font-family: "Lexend-Bold";
+  src: local("Lexend-Bold"),
+  url(./assets/fonts/Lexend-Bold.ttf) format("truetype");
+}
+
 @font-face {
   font-family: "Lexend-Regular";
   src: local("Lexend-Regular"),
@@ -86,7 +93,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
   text-align: center;
-  color: #2c3e50;
+  color: #333333;
   width: 100%;
   background: #fafafa;
 }
@@ -105,11 +112,33 @@ body {
 }
 
 h1 {
+  font-family: "Lexend-Bold", "Helvetica Bold", sans-serif;
   margin: 0;
+}
+
+h5 {
+  font-family: "Lexend-Regular", "Helvetica Neue", sans-serif;
+  font-size: 16px;
 }
 
 button {
   outline: none;
+}
+
+.space-top-lge {
+  padding-top: 100px;
+}
+
+.space-top-sml {
+  padding-top: 20px;
+}
+
+.space-btm-lge {
+  padding-bottom: 100px;
+}
+
+.space-btm-sml {
+  padding-bottom: 20px;
 }
 
 .mobile-nav {

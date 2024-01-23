@@ -29,9 +29,10 @@
     display: flex;
     font-size: 16px;
     height: 60px;
+    position: fixed;
     text-transform: uppercase;
-    z-index: 99999;
     width: 100%;
+    z-index: 99999;
     a.router{
         align-items: center;
         display: flex;

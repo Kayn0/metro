@@ -1,5 +1,219 @@
 #online-bookings {
-  margin-top: 100px;
+
+  .page {
+    align-items: center;
+    border-bottom: solid 12px #333333;
+    background: #C6F2FF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    min-height: calc(90vh - 114px);
+    width: 100%;
+
+    .page-center {
+      .ob-hero {
+        max-width: 700px;
+        width: 100%;
+      }
+      h5 {
+        margin-top: 10px;
+      }
+    }
+    &.no-bg {
+      background: #FFFFFF;
+    }
+
+    .content {
+      display: flex;
+      max-width: 630px;
+      flex-direction: column;
+      text-align: left;
+      line-height: 24px;
+      h5 {
+        margin-bottom: 0;
+      }
+    }
+
+    .page-two-third {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex: 2;
+      margin: 0;
+      &.top {
+        justify-content: flex-start;
+        padding-top: 100px;
+      }
+    }
+
+    .page-one-third {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .box {
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
+    width: 185px;
+    padding: 40px 40px 20px;
+    margin-bottom: 20px;
+    ul {
+      list-style-position: inside;
+      line-height: 24px;
+      padding-left: 0;
+    }
+    ul li {
+      list-style-type: none;
+    }
+    h5 {
+      margin: 0;
+    }
+
+    &.bg-1 {
+      background: #A4326D;
+    }
+
+    &.bg-2 {
+      background: #8165B2;
+    }
+
+    &.bg-3 {
+      background: #5E7BC6;
+    }
+  }
+
+  .old-flow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 3px;
+    max-height: 750px;
+  }
+
+  .image-content {
+    display: flex;
+    flex-direction: column;
+    .image {
+      a {
+        text-decoration: underline;
+        color: #00A0B0;
+      }
+      h6 {
+        margin: 0 0 10px;
+        height: 20px;
+        line-height: 20px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .personas {
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    img.persona {
+      width: 100%;
+      max-width: 250px;
+      padding-left: 10px;
+    }
+
+    img.persona:first-child {
+      padding: 0 10px 0 0;
+    }
+  }
+  .user-journey {
+    width: 400px;
+    margin-top: 40px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 3px;
+  }
+  .wireframe {
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin-bottom: 20px;
+    width: calc(100% - 40px);
+  }
+
+  .swatches {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .swatch {
+      width: 90px;
+      height: 120px;
+      margin: 0 10px 10px 0;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      h5 {
+        font-size: 11px;
+        margin: 0;
+        height: 16px;
+      }
+      h6 {
+        font-size: 9px;
+        margin: 0;
+      }
+      .swatch-label {
+        background: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 0 0 10px 10px;
+        text-align: center;
+      }
+    }
+  }
+
+  .accent {
+    background: #5A6469;
+  }
+
+  .primary {
+    background: #009FCC;
+  }
+
+  .subdued {
+    background: #C6F2FF;
+  }
+
+  .highlight {
+    background: #E9FAFF;
+  }
+
+  .secondary {
+    background: #3EB943;
+  }
+
+  .background {
+   background: #fafafa;
+  }
+
+  .foreground {
+    background: #FFFFFF;
+  }
+
+  .placeholder {
+    background: #979797;
+  }
+
 }
 
 #sales-dashboard {

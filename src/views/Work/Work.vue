@@ -20,7 +20,8 @@
     <div class="projects">
       <router-link to="/online-bookings">
       <div class="project">
-        <h3>Online Bookings</h3>
+        <h3>Online Bookings Platform</h3>
+
       </div>
       </router-link>
 
