@@ -31,6 +31,7 @@ import Footer from "@/components/Footer/Footer.vue";
 import Burger from "@/components/menu/Burger.vue";
 import Sidebar from "@/components/menu/Sidebar.vue";
 
+
 export default {
   name: "App",
   data() {
@@ -42,7 +43,7 @@ export default {
     NavBar,
     Footer,
     Burger,
-    Sidebar,
+    Sidebar
   },
   methods: {
     /**
@@ -86,6 +87,18 @@ export default {
   font-family: "Lexend-Light";
   src: local("Lexend-Light"),
   url(./assets/fonts/Lexend-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Bold";
+  src: local("Lato-Bold"),
+  url(./assets/fonts/Lato-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: local("Lato-Regular"),
+  url(./assets/fonts/Lato-Regular.ttf) format("truetype");
 }
 
 #app {
@@ -135,6 +148,10 @@ button {
 
 .space-btm-lge {
   padding-bottom: 100px;
+}
+
+.space-btm-med {
+  padding-bottom: 60px;
 }
 
 .space-btm-sml {

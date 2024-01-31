@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <div class="page no-bg">
+  <div class="page no-bg vert-space-lge">
     <div class="page-two-third">
       <div class="content">
         <h1>Overview</h1>
@@ -71,7 +71,7 @@
     </div>
   </div>
 
-  <div class="page">
+  <div class="page vert-space-lge">
     <div class="page-two-third top">
       <div class="content">
         <h1>Understand</h1>
@@ -92,10 +92,9 @@
         <img class="old-flow" src="../../assets/images/ob-old-flow.png" alt="Online Bookings old user flow" />
       </div>
     </div>
-
   </div>
 
-  <div class="page no-bg space-top-lge space-btm-lge">
+  <div class="page no-bg space-top-lge space-btm-lge vert-space-lge">
     <div class="content">
       <h1>Understand</h1>
 
@@ -131,7 +130,7 @@
     </div>
   </div>
 
-  <div class="page space-top-lge space-btm-lge">
+  <div class="page vert-space-lge">
     <div class="content">
       <h1>Understand</h1>
       <h5>Reviewing Client Feedback</h5>
@@ -162,7 +161,7 @@
     </div>
   </div>
 
-  <div class="page no-bg space-top-lge space-btm-lge">
+  <div class="page no-bg vert-space-lge">
     <div class="content">
       <h1>Understand</h1>
       <h5>Personas</h5>
@@ -174,31 +173,34 @@
     </div>
   </div>
 
-  <div class="page space-top-lge space-btm-lge">
+  <div class="page vert-space-lge">
     <div class="content">
       <h1>Understand</h1>
       <h5>User Journey Flow Charts</h5>
       <p>As discovered in the round table meetings, I needed to create several use cases solutions to meet each of these needs. I used Flow Charts to document the different user journeys to give me a visual representation.</p>
       <h5>Full User Journey</h5>
       <p>The clinic has several locations with many practitioners at each location. All locations and practitioners need to be available to the patient.</p>
-      <img class="user-journey" src="../../assets/images/user-journey-full.png" alt="Full User Journey" />
-    </div>
-  </div>
-
-  <div class="page no-bg space-top-lge space-btm-lge">
-    <div class="content">
-      <h1>Understand</h1>
       <h5>Standard User Journey</h5>
       <p> The bulk of our users operate from one Location but can have many practitioners. This user flow allows the user start at the practitioner step.</p>
-      <img class="user-journey" src="../../assets/images/user-journey-standard.png" alt="Standard User Journey" />
-    </div>
-  </div>
-  <div class="page space-top-lge space-btm-lge">
-    <div class="content">
-      <h1>Understand</h1>
       <h5>Quick User Journey</h5>
       <p>Clinic’s would like to list practitioner’s on their website and would like a link to allow the user to book with the selected practitioner. Also users wanted to be able to provide a quick link for patients to rebook with the same practitioner. This user flow shows how this is achieved.</p>
-      <img class="user-journey" src="../../assets/images/user-journey-quick.png" alt="Quick User Journey" />
+      <div class="image-holder image-row">
+
+        <div class="">
+          <h6>Full User Journey</h6>
+          <img class="user-journey" src="../../assets/images/user-journey-full.png" alt="Full User Journey" />
+        </div>
+
+        <div class="">
+          <h6>Standard User Journey</h6>
+          <img class="user-journey" src="../../assets/images/user-journey-standard.png" alt="Standard User Journey" />
+        </div>
+
+        <div class="">
+          <h6>Quick User Journey</h6>
+          <img class="user-journey" src="../../assets/images/user-journey-quick.png" alt="Quick User Journey" />
+        </div>
+      </div>
     </div>
   </div>
 
@@ -224,45 +226,39 @@
     </div>
   </div>
 
-  <div class="page space-top-lge space-btm-lge">
-    <div class="page-two-third top">
+  <div class="page vert-space-lge">
       <div class="content">
         <h1>Create</h1>
         <h5>Wireframe Mockups</h5>
         <p>I started creating wireframe mockups, by taking what I learnt during the round table interviews. I had a concept in mind for how the page should interact with the user and I reworked a few different layout types, until I settled on one that I felt worked the best in terms of page space and presentation.</p>
+
+        <div class="image-holder">
+          <img class="wireframe" src="../../assets/images/wireframe-1.png" alt="Wireframe of Location Selection" />
+          <img class="wireframe" src="../../assets/images/wireframe-2.png" alt="Wireframe of Practitioner Selection" />
+          <img class="wireframe" src="../../assets/images/wireframe-3.png" alt="Wireframe of Appointment Selection" />
+        </div>
       </div>
-    </div>
-    <div class="page-one-third">
-      <div class="content">
-        <img class="wireframe" src="../../assets/images/wireframe-1.png" alt="Wireframe of Location Selection" />
-        <img class="wireframe" src="../../assets/images/wireframe-2.png" alt="Wireframe of Practitioner Selection" />
-        <img class="wireframe" src="../../assets/images/wireframe-3.png" alt="Wireframe of Appointment Selection" />
-      </div>
-    </div>
+
   </div>
 
-  <div class="page no-bg space-top-lge space-btm-lge">
-    <div class="page-two-third top">
+  <div class="page no-bg vert-space-lge">
       <div class="content">
         <h1>Create</h1>
         <h5>Low Resolution Mockups</h5>
         <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+        <div class="image-holder">
+          <img class="wireframe" src="../../assets/images/low-res-1.png" alt="Low-res mockup of Location Selection" />
+          <img class="wireframe" src="../../assets/images/low-res-2.png" alt="Low-res mockup of Practitioner Selection" />
+          <img class="wireframe" src="../../assets/images/low-res-3.png" alt="Low-res mockup of Appointment Selection" />
+        </div>
       </div>
-    </div>
-    <div class="page-one-third">
-      <div class="content">
-        <img class="wireframe" src="../../assets/images/low-res-1.png" alt="Low-res mockup of Location Selection" />
-        <img class="wireframe" src="../../assets/images/low-res-2.png" alt="Low-res mockup of Practitioner Selection" />
-        <img class="wireframe" src="../../assets/images/low-res-3.png" alt="Low-res mockup of Appointment Selection" />
-      </div>
-    </div>
+
   </div>
 
-  <div class="page no-bg">
-
+  <div class="page no-bg vert-space-lge">
     <div class="content">
       <h1>Prototype</h1>
-      <h5>UI Toolkit</h5>
+      <h3>UI Toolkit</h3>
 
       <div class="swatches">
         <div class="swatch accent">
@@ -324,10 +320,227 @@
 
       <hr />
 
-      <div class="">
-        <div class=""></div>
-        <div class=""></div>
+      <div class="headings">
+        <div class="heading-element">
+          <div class="heading-left">
+            <h1 class="ob">Heading H1</h1>
+            <h5 class="ob">Lato Bold</h5>
+            <h6 class="ob">32px</h6>
+          </div>
+
+          <div class="example-right">
+              <h1>Donec et odio pellentesqu diam.</h1>
+          </div>
+        </div>
+
+        <div class="heading-element">
+          <div class="heading-left">
+            <h2 class="ob">Heading H2</h2>
+            <h5 class="ob">Lato Bold</h5>
+            <h6 class="ob">24px</h6>
+          </div>
+          <div class="example-right">
+            <h2>Donec et odio pellentesqu diam.</h2>
+          </div>
+        </div>
+
+        <div class="heading-element">
+          <div class="heading-left">
+            <h3 class="ob">Heading H3</h3>
+            <h5 class="ob">Lato Bold</h5>
+            <h6 class="ob">16px</h6>
+          </div>
+          <div class="example-right">
+            <h3>Donec et odio pellentesqu diam.</h3>
+          </div>
+        </div>
+
+        <div class="heading-element">
+          <div class="heading-left">
+            <div class="ob-text">Body Default</div>
+            <h5 class="ob">Lato Regular</h5>
+            <h6 class="ob">16px</h6>
+          </div>
+          <div class="example-right">
+            <div class="default-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis.</div>
+          </div>
+        </div>
+
+        <div class="heading-element">
+          <div class="heading-left">
+            <div class="ob-text">Body Medium</div>
+            <h5 class="ob">Lato Regular</h5>
+            <h6 class="ob">14px</h6>
+          </div>
+          <div class="example-right">
+            <div class="medium-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis.</div>
+          </div>
+        </div>
+
+        <div class="heading-element">
+          <div class="heading-left">
+            <div class="ob-text">Body Small</div>
+            <h5 class="ob">Lato Regular</h5>
+            <h6 class="ob">12px</h6>
+          </div>
+          <div class="example-right">
+            <div class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet proin ut vitae, felis.</div>
+          </div>
+        </div>
+
+        <div class="heading-element space-btm-med last">
+          <div class="heading-left">
+            <div class="ob-text">Text Link</div>
+            <h5 class="ob">Lato Regular</h5>
+            <h6 class="ob">14px</h6>
+          </div>
+          <div class="example-right">
+            <div class="text-link">Lorem ipsum dolor sit amet.</div>
+          </div>
+        </div>
       </div>
+
+      <hr />
+      <h3>Icons</h3>
+      <div class="image-container">
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'search']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'pen']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'building']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'users']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'user']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'times']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'envelope']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'shopping-cart']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'phone']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'chevron-down']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'chevron-left']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'plus-circle']" />
+        </div>
+
+        <div class="icon">
+          <font-awesome-icon :icon="['fas', 'font']" />
+        </div>
+      </div>
+
+      <hr />
+      <h3>Buttons</h3>
+      <div class="buttons">
+
+        <div class="button-container">
+          <h5>Primary</h5>
+          <button class="primary">BUTTON</button>
+        </div>
+
+        <div class="button-container">
+          <h5>Secondary</h5>
+          <button class="secondary">BUTTON</button>
+        </div>
+
+        <div class="button-container">
+          <h5>Outline</h5>
+          <button class="outline">BUTTON</button>
+        </div>
+
+        <div class="button-container">
+          <h5>Disabled</h5>
+          <button class="inactive" :disabled="true">BUTTON</button>
+        </div>
+      </div>
+
+      <hr />
+      <h3>Icon Buttons</h3>
+      <div class="buttons small">
+        <div class="button-container">
+          <h5>State 1</h5>
+          <button class="icon-text-btn">
+            <div class="icon-btn-text">BOOK</div>
+            <font-awesome-icon :icon="['fas', 'chevron-down']" />
+          </button>
+        </div>
+
+        <div class="button-container">
+          <h5>State 2</h5>
+          <button class="icon-text-btn closed">
+            <div class="icon-btn-text">CLOSE</div>
+            <font-awesome-icon :icon="['fas', 'chevron-left']" />
+          </button>
+        </div>
+      </div>
+
+
+      <hr />
+      <h3>Location and Practitioner Cards</h3>
+      <div class="cards">
+        <div class="card-container">
+          <h5>Location Card</h5>
+          <div class="card">
+            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+            <img class="prac-img" src="../../assets/images/physio-logo.png" alt="" />
+            <div class="bottom-bar">
+              <h4>Spring Hill</h4>
+              <h6>115 Valley Road</h6>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card-container">
+          <h5>Practitioner Card</h5>
+          <div class="card">
+            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+            <img class="prac-img" src="../../assets/images/jenny.png" alt="" />
+            <div class="card-name">Jenny Jones</div>
+            <div class="title">Podiatrist</div>
+            <div class="bottom-bar">
+              <h6>MORE INFO</h6>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
 
     </div>
   </div>
@@ -341,8 +554,12 @@
 
 <script>
 export default {
-  name: "OnlineBookings"
+  name: "OnlineBookings",
+  computed: {
+    isDisabled: true
+  }
 }
+
 </script>
 
 <style scoped>
