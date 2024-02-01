@@ -226,24 +226,12 @@
     </div>
   </div>
 
-  <div class="page vert-space-lge">
+  <div class="page no-bg vert-space-lge">
       <div class="content">
         <h1>Create</h1>
         <h5>Wireframe Mockups</h5>
         <p>I started creating wireframe mockups, by taking what I learnt during the round table interviews. I had a concept in mind for how the page should interact with the user and I reworked a few different layout types, until I settled on one that I felt worked the best in terms of page space and presentation.</p>
 
-        <div class="image-holder">
-          <img class="wireframe" src="../../assets/images/wireframe-1.png" alt="Wireframe of Location Selection" />
-          <img class="wireframe" src="../../assets/images/wireframe-2.png" alt="Wireframe of Practitioner Selection" />
-          <img class="wireframe" src="../../assets/images/wireframe-3.png" alt="Wireframe of Appointment Selection" />
-        </div>
-      </div>
-
-  </div>
-
-  <div class="page no-bg vert-space-lge">
-      <div class="content">
-        <h1>Create</h1>
         <h5>Low Resolution Mockups</h5>
         <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
         <div class="image-holder">
@@ -252,7 +240,6 @@
           <img class="wireframe" src="../../assets/images/low-res-3.png" alt="Low-res mockup of Appointment Selection" />
         </div>
       </div>
-
   </div>
 
   <div class="page no-bg vert-space-lge">
@@ -505,14 +492,12 @@
         </div>
       </div>
 
-
       <hr />
-      <h3>Location and Practitioner Cards</h3>
+      <h3>Location & Practitioner Cards</h3>
       <div class="cards">
-        <div class="card-container">
-          <h5>Location Card</h5>
+        <div class="card-container right-margin-medium">
           <div class="card">
-            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+            <font-awesome-icon class="card-location" :icon="['fas', 'map-marker-alt']" />
             <img class="prac-img" src="../../assets/images/physio-logo.png" alt="" />
             <div class="bottom-bar">
               <h4>Spring Hill</h4>
@@ -521,32 +506,104 @@
           </div>
         </div>
 
-
         <div class="card-container">
-          <h5>Practitioner Card</h5>
           <div class="card">
-            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
-            <img class="prac-img" src="../../assets/images/jenny.png" alt="" />
+            <img class="prac" src="../../assets/images/jenny.png" alt="" />
             <div class="card-name">Jenny Jones</div>
             <div class="title">Podiatrist</div>
             <div class="bottom-bar">
-              <h6>MORE INFO</h6>
+              <h5>MORE INFO</h5>
             </div>
           </div>
         </div>
-
-
-
       </div>
-
-
-
-
     </div>
   </div>
 
+  <div class="page vert-space-lge">
+    <div class="content">
+      <h1>Prototype</h1>
+      <h3>High Resolution Mockups</h3>
+      <div class="image-holder">
+        <img class="hi-res" src="../../assets/images/hires-1.png" alt="Hi-resolution of Location Selection" />
+        <img class="hi-res" src="../../assets/images/hires-2.png" alt="Hi-resolution of Practitioner Selection" />
+        <img class="hi-res" src="../../assets/images/hires-3.png" alt="Hi-resolution of Appointment Selection" />
+        <img class="hi-res" src="../../assets/images/hires-4.png" alt="Hi-resolution of Appointment Type Selection" />
+        <img class="hi-res" src="../../assets/images/hires-5.png" alt="Hi-resolution of Appointment Date Selection" />
+        <img class="hi-res" src="../../assets/images/hires-6.png" alt="Hi-resolution of Appointment Time Selection" />
+        <img class="hi-res" src="../../assets/images/hires-8.png" alt="Hi-resolution of Appointment Profile Details" />
+      </div>
+    </div>
+  </div>
 
+  <div class="page no-bg vert-space-lge">
+    <div class="content">
+      <h1>Prototype</h1>
+      <h3>User Customisation</h3>
+      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+      <div class="image-holder">
+        <img class="hi-res" src="../../assets/images/custom-1.png" alt="Example of colour customisation" />
+        <img class="hi-res" src="../../assets/images/custom-2.png" alt="Example of background customisation" />
+      </div>
+    </div>
+  </div>
 
+  <div class="page vert-space-lge">
+    <div class="content">
+      <h1>Prototype</h1>
+      <h3>Customisation Examples</h3>
+      <div class="image-holder">
+        <img class="hi-res" src="../../assets/images/custom-3.png" alt="Example of Online Booking Customisation" />
+        <img class="hi-res" src="../../assets/images/custom-4.png" alt="Example of Online Booking Customisation" />
+        <img class="hi-res" src="../../assets/images/custom-5.png" alt="Example of Online Booking Customisation" />
+        <img class="hi-res" src="../../assets/images/custom-6.png" alt="Example of Online Booking Customisation" />
+      </div>
+    </div>
+  </div>
+
+  <div class="page no-bg vert-space-lge">
+    <div class="content">
+      <h1>Prototype</h1>
+      <h3>Tablet UI</h3>
+      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+      <div class="image-holder tablet-holder">
+        <img class="tablet" src="../../assets/images/ipad-1.png" alt="Tablet example of Location Selection" />
+        <img class="tablet" src="../../assets/images/ipad-2.png" alt="Tablet example of Practitioner Selection" />
+        <img class="tablet" src="../../assets/images/ipad-3.png" alt="Tablet example of Practitioner Selection" />
+        <img class="tablet" src="../../assets/images/ipad-4.png" alt="Tablet example of Practitioner Selection" />
+        <img class="tablet" src="../../assets/images/ipad-5.png" alt="Tablet example of Practitioner Selection" />
+      </div>
+    </div>
+  </div>
+
+  <div class="page vert-space-lge">
+    <div class="content">
+      <h1>Prototype</h1>
+      <h3>Mobile UI</h3>
+      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+      <div class="image-holder mobile-holder">
+        <img class="mobile" src="../../assets/images/mobile-1.png" alt="Mobile homepage example" />
+        <img class="mobile" src="../../assets/images/mobile-2.png" alt="Mobile example of Location Selection" />
+        <img class="mobile" src="../../assets/images/mobile-3.png" alt="Mobile example of Practitioner Selection" />
+        <img class="mobile" src="../../assets/images/mobile-5.png" alt="Mobile example of Booking Details" />
+        <img class="mobile" src="../../assets/images/mobile-4.png" alt="Mobile example of Appointment Selection" />
+        <img class="mobile" src="../../assets/images/mobile-6.png" alt="Mobile example of Date Selection" />
+        <img class="mobile" src="../../assets/images/mobile-7.png" alt="Mobile example of Time Selection" />
+        <img class="mobile" src="../../assets/images/mobile-8.png" alt="Mobile example of Practitioner Selection" />
+      </div>
+    </div>
+  </div>
+
+  <div class="page no-bg vert-space-lge">
+    <div class="content">
+      <h1>Test</h1>
+      <h3>Usability Testing</h3>
+      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+      <h3>Conclusion</h3>
+      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+
+    </div>
+  </div>
 
 </div>
 
