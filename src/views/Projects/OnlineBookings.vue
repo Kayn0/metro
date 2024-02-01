@@ -1,6 +1,5 @@
 <template>
 <div id="online-bookings">
-
   <div class="page">
     <div class="page-center">
       <h1>Online Bookings Platform</h1>
@@ -61,8 +60,8 @@
           <li>Round Table Interviews</li>
           <li>Questionnaires</li>
           <li>Competitive Analysis</li>
-          <li>Current State Analysis</li>
-          <li>User Flow Diagram</li>
+          <li>Current State Evaluation</li>
+          <li>User Flow Diagrams</li>
           <li>Low & high res mockups</li>
           <li>Prototyping</li>
           <li>Usability Testing</li>
@@ -140,10 +139,13 @@
         <li>The ability for the user to book multiple classes at once.</li>
         <li>Different users expressed the need to allow the end user to choose a practitioner before a location and vice versa.</li>
         <li>Able to either show a goodbye message or link to an external site on a complete booking.</li>
-        <li>Able to quickly choose the first available practitioner and booking.</li>
+        <li>Able to quickly choose the first available practitioner.</li>
         <li>Able to show or hide appointment times and time lengths.</li>
-        <li>Improved interface for our clients for creating an Online Booking Link.</li>
-        <li>The ability to customise colours settings to match branding.</li>
+        <li>Improved easier to user interface, with not so many steps.</li>
+        <li>Many issues raised with the mobile and tablet experience.</li>
+        <li>The ability to customise colour settings to match branding.</li>
+        <li>The ability to add background images.</li>
+
       </ul>
 
       <h5>Round Table Discussions</h5>
@@ -207,8 +209,9 @@
   <div class="page no-bg">
     <div class="content">
       <h1>Define</h1>
+
       <h5>Product Statement</h5>
-      <p>Understanding customer needs to enable them to effectively sell their services, whilst providing their patients a user friendly, streamlined online booking experience.</p>
+      <p div class="highlight-text">Understanding customer needs to enable them to effectively sell their services, whilst providing their patients a user friendly, streamlined online booking experience.</p>
       <h5>Feature Roadmap</h5>
       <p>As a general overview here is part of the feature roadmap for the online bookings platform.</p>
       <ul>
@@ -226,7 +229,7 @@
     </div>
   </div>
 
-  <div class="page no-bg vert-space-lge">
+  <div class="page vert-space-lge">
       <div class="content">
         <h1>Create</h1>
         <h5>Wireframe Mockups</h5>
@@ -524,6 +527,7 @@
     <div class="content">
       <h1>Prototype</h1>
       <h3>High Resolution Mockups</h3>
+      <p>This series of mockups shows the Full User Journey when making an Online Booking with default styling and customisation options.  </p>
       <div class="image-holder">
         <img class="hi-res" src="../../assets/images/hires-1.png" alt="Hi-resolution of Location Selection" />
         <img class="hi-res" src="../../assets/images/hires-2.png" alt="Hi-resolution of Practitioner Selection" />
@@ -540,7 +544,12 @@
     <div class="content">
       <h1>Prototype</h1>
       <h3>User Customisation</h3>
-      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+      <p>Feedback from clients had showed it was important to them for the ability to customise the look and feel of the platform to match their branding and create a point of difference from their competitors. To facilitate this clients are able to:</p>
+        <ul>
+          <li>Upload practitioner, location, service and class images.</li>
+          <li>Customise the colours used throughout the platform to match branding.</li>
+          <li>Add a background image.</li>
+        </ul>
       <div class="image-holder">
         <img class="hi-res" src="../../assets/images/custom-1.png" alt="Example of colour customisation" />
         <img class="hi-res" src="../../assets/images/custom-2.png" alt="Example of background customisation" />
@@ -565,7 +574,7 @@
     <div class="content">
       <h1>Prototype</h1>
       <h3>Tablet UI</h3>
-      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+      <p>The tablet layout required several key changes from when using the platform on a desktop. These included adding a Navigation Header, containing global functionality. To conform to tablet design standards and to allow for many practitioners or locations to be easily viewed, I restyled the location and practitioner selection screens into a list view.</p>
       <div class="image-holder tablet-holder">
         <img class="tablet" src="../../assets/images/ipad-1.png" alt="Tablet example of Location Selection" />
         <img class="tablet" src="../../assets/images/ipad-2.png" alt="Tablet example of Practitioner Selection" />
@@ -580,7 +589,7 @@
     <div class="content">
       <h1>Prototype</h1>
       <h3>Mobile UI</h3>
-      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+      <p>The mobile UI and layout followed the list structure shown in the tablet view, however this was also continued for the appointment or class booking screens.</p>
       <div class="image-holder mobile-holder">
         <img class="mobile" src="../../assets/images/mobile-1.png" alt="Mobile homepage example" />
         <img class="mobile" src="../../assets/images/mobile-2.png" alt="Mobile example of Location Selection" />
@@ -594,17 +603,23 @@
     </div>
   </div>
 
-  <div class="page no-bg vert-space-lge">
+  <div class="page no-bg">
     <div class="content">
       <h1>Test</h1>
       <h3>Usability Testing</h3>
-      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
+      <p>Overall the new platform was received with many positive comments and feedback during the Usability Testing phase. The streamlined flow, vastly improved tablet and mobile experience satisfied the needs of many different sized clinics.</p>
+      <p>During this phase I was able to gather useful feedback from client testers that allowed me to make several improvements to the UI, these included:</p>
+      <ul>
+        <li>Allow services and classes to be grouped by categories.</li>
+        <li>Further customisation at the end of the sales flow to allow the user to return to the clients website, receive a goodbye message or a combination of both.</li>
+        <li>Added functionality for services and classes to be reordered.</li>
+        <li>The option to show or hide qualification information for practitioners.</li>
+        <li>In the web view the default setting when selecting a date is the month view over the week view.</li>
+      </ul>
       <h3>Conclusion</h3>
-      <p>Next I moved onto low resolution mockups to flesh out the interface and the elements. During this phase I was guided by my prior research especially the client feedback. This was done to ensure all relevant features and improvements were included in the system.</p>
-
+      <p>While working on this project I learnt to lean on the information discovered during the Understand phase. This allowed me to not rely on preconceived ideas I had break away from the layout issues plaguing the initial version, especially for tablet and mobile. I thoroughly enjoyed the Usability phase, as it allowed me to take on valuable feedback which only helped to improve the end-users experience.</p>
     </div>
   </div>
-
 </div>
 
 </template>
