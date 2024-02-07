@@ -6,6 +6,7 @@ import Contact from '../views/Contact/Contact.vue'
 
 import OnlineBookings from '../views/Projects/OnlineBookings.vue'
 import SalesDashboard from '../views/Projects/SalesDashboard.vue'
+import CommunicationsCenter from '../views/Projects/CommunicationsCenter.vue'
 
 const routes = [
   {
@@ -32,12 +33,20 @@ const routes = [
     path: '/sales-dashboard',
     name: 'SalesDashboard',
     component: SalesDashboard,
+  },
+  {
+    path: '/communications-center',
+    name: 'CommunicationsCenter',
+    component: CommunicationsCenter,
   }
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  scrollBehavior() {
+    return { top: 0, left: 0 }
+  }
 })
 
 export default router

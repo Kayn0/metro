@@ -31,16 +31,16 @@
       </div>
       </router-link>
 
-      <div class="project">
-        <h3>One Racing League</h3>
-      </div>
+
+      <router-link to="/communications-center">
+        <div class="project">
+          <h3>Communications Center</h3>
+        </div>
+      </router-link>
 
       <div class="project">
         <h3>SBS Cultural Competence</h3>
       </div>
-
-
-
 
     </div>
 

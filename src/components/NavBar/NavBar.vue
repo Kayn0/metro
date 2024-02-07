@@ -37,17 +37,8 @@ export default {
       if (this.isOpen === true) {
         this.isOpen = false;
       }
-    },
-
-    handleFocus() {
-      // do something here
-    },
-    handleFocusOut(item) {
-      if (item.target !== "div.nav-link") {
-        this.isOpen = false;
-      }
-    },
-  },
+    }
+  }
 };
 </script>
 

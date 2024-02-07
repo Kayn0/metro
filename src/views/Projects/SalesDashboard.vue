@@ -3,7 +3,7 @@
     <div class="page">
       <div class="page-center">
         <h1>Sales Dashboard</h1>
-        <h5>Platform enabling sales staff to effectively manage Nookal customers throughout the signup journey</h5>
+        <h5>Enabling sales staff to effectively manage customers throughout the signup journey</h5>
         <img class="ob-hero" src="../../assets/images/dash.png" alt="Online Booking Platform Examples" />
       </div>
     </div>
