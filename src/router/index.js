@@ -6,7 +6,7 @@ import Contact from '../views/Contact/Contact.vue'
 
 import OnlineBookings from '../views/Projects/OnlineBookings.vue'
 import SalesDashboard from '../views/Projects/SalesDashboard.vue'
-import CommunicationsCenter from '../views/Projects/CommunicationsCenter.vue'
+import ClinicalNotes from '../views/Projects/ClinicalNotes.vue'
 
 const routes = [
   {
@@ -35,9 +35,9 @@ const routes = [
     component: SalesDashboard,
   },
   {
-    path: '/communications-center',
-    name: 'CommunicationsCenter',
-    component: CommunicationsCenter,
+    path: '/clinical-notes',
+    name: 'ClinicalNotes',
+    component: ClinicalNotes,
   }
 ]
 

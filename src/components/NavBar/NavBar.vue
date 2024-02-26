@@ -1,17 +1,18 @@
 <template>
   <div class="navbar">
     <router-link to="/" class="router">
-      <img
-        class="logo"
-        alt="Kane Maslen logo"
-        src="../../assets/images/kane-maslen-logo.png"
-      />
+      <div class="logo">KANEMASLEN.</div>
+<!--      <img-->
+<!--        class="logo"-->
+<!--        alt="Kane Maslen logo"-->
+<!--        src="../../assets/images/kane-maslen-logo.png"-->
+<!--      />-->
     </router-link>
 
     <div class="nav-links">
       <router-link to="/" @click="disableDropdown()">Work</router-link>
       <router-link to="/about" v-on:click="disableDropdown()">About</router-link>
-      <router-link to="/contact" v-on:click="disableDropdown()">Contact</router-link>
+      <router-link to="/contact" v-on:click="disableDropdown()">Resume</router-link>
     </div>
   </div>
 </template>

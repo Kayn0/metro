@@ -8,8 +8,11 @@
 }
 
 .logo {
+    font-family: Oswald-Regular, sans-serif;
     padding: 10px;
+    font-size: 20px;
     width: 134px;
+    color: #304269;
 }
 
 .navbar.web-nav .nav-links .active a {
@@ -23,15 +26,14 @@
 }
 
 .navbar {
-    background: #00A0B0;
+    background: #FFFFFF;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    color: #fff;
+    color: #222222;
     display: flex;
     font-size: 16px;
     height: 60px;
     position: fixed;
     top: 0;
-    text-transform: uppercase;
     width: 100%;
     z-index: 99999;
     a.router{
@@ -46,13 +48,13 @@
     display: flex;
     justify-content: right;
     width: 100%;
+    font-family: Montserrat-Light, sans-serif;
 }
 
 .navbar.web-nav .nav-links a {
     text-decoration: none !important;
     border-radius: 3px;
-    color: #fff;
-    font-weight: bold;
+    color: #222222;
     height: 44px;
     line-height: 44px;
     text-align: center;
@@ -65,7 +67,7 @@
 .navbar.web-nav .nav-link {
     border-radius: 3px;
     cursor: pointer;
-    color: #fff;
+    color: #222222;
     font-weight: bold;
     height: 44px;
     line-height: 44px;
@@ -80,7 +82,7 @@
 
 .navbar.web-nav .activateBtn,
 a.router-link-exact-active {
-    background: #2fc9d3;
+    background: #304269;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     height: 44px;
 }
@@ -91,7 +93,8 @@ a.router-link-exact-active {
 
 .nav-link:hover,
 .navbar a:hover {
-    background: #2fc9d3;
+    background: #304269;
+    color: #FFFFFF !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -107,7 +110,7 @@ a.router-link-exact-active {
     color: #19292e;
     display: flex;
     flex-direction: column;
-    font-family: "Helvetica-Light";
+    font-family: "Helvetica-Light", sans-serif;
     font-weight: normal;
     position: absolute;
 }

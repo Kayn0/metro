@@ -1,49 +1,57 @@
 <template>
   <div id="work">
     <div class="container">
-      <div class="heading">
-        <div class="text-container">
-          <h1>Hello! <br/>
-            I’m Kane Maslen, <br/>
-            a UI/UX Designer. <br/>
-          </h1>
+
+      <div class="flex-row">
+        <div class="site-header">Hello, I design
+          <div class="highlight">complex</div>
+          user interfaces and experiences.</div>
+        <div class="button-container">
+          <div class="button">Email Me</div>
         </div>
       </div>
 
-      <div class="hero-image">
-        <img src="../../assets/images/hero-image.png"
-             alt="Main page image"
-             class="hero-img"
-        />
+      <div class="cases">
+
+        <router-link to="/online-bookings">
+          <div class="case">
+            <div>
+              <h2>Online Bookings Platform</h2>
+              <h4>Providing Allied Health Patients an enjoyable Online Booking experience.</h4>
+            </div>
+            <div>
+              <img class="ob-bg" src="../../assets/images/ob-bg.png" alt="online bookings hero" />
+            </div>
+          </div>
+        </router-link>
+
+        <router-link to="/sales-dashboard">
+          <div class="case">
+            <div>
+              <h2>Sales Dashboard</h2>
+              <h4>Effectively managing the signup journey for Nookal customers</h4>
+            </div>
+            <div>
+              <img class="ob-bg" src="../../assets/images/ob-bg.png" alt="online bookings hero" />
+            </div>
+          </div>
+        </router-link>
+
+        <router-link to="/clinical-notes">
+          <div class="case">
+            <div>
+              <h2>Clinical Notes Redesign</h2>
+              <h4>Supporting Healthcare Practitioners by facilitating a streamlined clinical note taking experience.</h4>
+            </div>
+            <div>
+              <img class="ob-bg" src="../../assets/images/ob-bg.png" alt="online bookings hero" />
+            </div>
+          </div>
+        </router-link>
+
+
       </div>
     </div>
-    <div class="projects">
-      <router-link to="/online-bookings">
-      <div class="project">
-        <h3>Online Bookings Platform</h3>
-
-      </div>
-      </router-link>
-
-      <router-link to="/sales-dashboard">
-      <div class="project">
-        <h3>Sales Dashboard</h3>
-      </div>
-      </router-link>
-
-
-      <router-link to="/communications-center">
-        <div class="project">
-          <h3>Communications Center</h3>
-        </div>
-      </router-link>
-
-      <div class="project">
-        <h3>SBS Cultural Competence</h3>
-      </div>
-
-    </div>
-
   </div>
 </template>
 

@@ -29,7 +29,7 @@
 
           <h5>Goals</h5>
           <p>
-            I wanted to understand the top pain points that sales staff were having when managing the customer journey to ensure this experience was easily manageable, whilst highlighting key data that would improve day to day operations. Lastly I wanted to ensure the status and communication to the client was seamless to continue to increase subscriptions and aid support staff in client management.
+            I wanted to understand the top pain points that sales staff were having when managing the customer journey to ensure this experience was easily manageable, whilst highlighting key data that would improve day to day operations. Lastly I wanted to ensure the status and communication to the client was seamless to continue to increase subscriptions and aid staff in client management.
           </p>
         </div>
       </div>
@@ -75,19 +75,20 @@
         <div class="content">
           <h1>Understand</h1>
           <h5>Current State Evaluation</h5>
-          <p>I started the process by reviewing and documenting the customer journey to gain a full overview of the current situation. In relation to this I reviewed the data that sales staff were required to track, which gave me insights in how to minimise the work required and further assist them by visualising important data. In addition I reviewed the current website that was used by sales staff to review client information. Below are some problems I found:</p>
+          <p>I started the process by reviewing and documenting the customer journey to gain a full overview of the current situation. In relation to this I reviewed the data that sales staff were required to track, which gave me insights in how to streamline the the process and improve visibility of key data points. In addition I reviewed the current website that was used by sales staff to review client information. This formed the basis of an action plan to identify the problems I found:</p>
           <ul>
             <li>Insufficient customer account information and data.</li>
             <li>Limited customer account controls.</li>
             <li>Inadequate Customer Search.</li>
             <li>Constrained customer tracking and communication channels.</li>
+            <li>Inadequate mobile and tablet UI.</li>
           </ul>
         </div>
       </div>
 
       <div class="page-one-third">
         <div class="content">
-          <img class="old-flow" src="../../assets/images/ob-old-flow.png" alt="Online Bookings old user flow" />
+
         </div>
       </div>
     </div>
@@ -96,8 +97,8 @@
       <div class="content">
         <h1>Understand</h1>
         <h5>Interviews</h5>
-        <p>I started the interview process with a round table interview with the Head of Sales and several sales staff. This revealed how they were managing the clients through the signup process, which was somehow being done with Excel spreadsheets.</p>
-        <p class="space-top-sml">Further problems were arising that were starting to impact the customer journey, which included an increasing amount of time it was taking sales staff to track and manage customers. Other issues  I found with this process was it was prone to errors and leads and trial customers were not being communicated to in a timely manner. Sales staff also wanted graphs and charts of key data to be displayed on the dashboard to give them an overview of their work for the day. I worked with the sales staff to come up with a list of useful information that could be turned into charts.</p>
+        <p>I started the interview process with a round table interview with the Head of Sales and several sales staff. This revealed how they were managing the clients through the signup process, which was being managed with Excel spreadsheets.</p>
+        <p class="space-top-sml">Further problems were arising that were starting to impact the customer journey, which included an increasing amount of time it was taking sales staff to track and manage customers. Other issues I found with this process was it was prone to errors and leads and trial customers were not being communicated to in a timely manner. Sales staff also wanted graphs and charts of key data to be displayed on the dashboard to give them an overview of their work for the day. I worked with the sales staff to come up with a list of useful information that could be turned into charts.</p>
 
         <h5>Questionnaire</h5>
         <p>I emailed questionnaires to both recently signed up customers and lost leads to see if I could highlight any common good or bad experiences that customers were having. The results were varied but two common themes became obvious:</p>
@@ -105,7 +106,7 @@
           <li>After the initial demo some customers did not have any follow up communications, leading to lost leads. Other lost leads also reported a several day delay in response to communications and wanted more opportunities for training.</li>
           <li>Customers who signed up did report positive communications with sales staff and the demo’s did a great job of outlining the many features of Nookal. This indicates that improving our response time to Leads and continuing to prioritise demonstrations will continue to help with the growth of Nookal.</li>
         </ul>
-        <p>Below are some insights and highlights obtained from the interviews:</p>
+        <p>Below are some insights and highlights</p>
         <ul>
           <li>Staff need a way to view and manage customers at each step of the journey.</li>
           <li>Staff need to be automatically notified when a customer becomes inactive in the journey.</li>

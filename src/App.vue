@@ -20,14 +20,14 @@
 
     <!-- Loaded Page View -->
     <router-view />
-    <Footer />
+<!--    <Footer />-->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import NavBar from "@/components/NavBar/NavBar.vue";
-import Footer from "@/components/Footer/Footer.vue";
+// import Footer from "@/components/Footer/Footer.vue";
 import Burger from "@/components/menu/Burger.vue";
 import Sidebar from "@/components/menu/Sidebar.vue";
 
@@ -41,7 +41,7 @@ export default {
   },
   components: {
     NavBar,
-    Footer,
+    // Footer,
     Burger,
     Sidebar
   },
@@ -101,8 +101,33 @@ export default {
   url(./assets/fonts/Lato-Regular.ttf) format("truetype");
 }
 
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"),
+  url(./assets/fonts/Montserrat-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: local("Montserrat-Regular"),
+  url(./assets/fonts/Montserrat-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: local("Montserrat-Light"),
+  url(./assets/fonts/Montserrat-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Oswald-Regular";
+  src: local("Oswald-Regular"),
+  url(./assets/fonts/oswald-regular.ttf) format("truetype");
+}
+
 #app {
-  font-family: Lexend-Regular, Arial, sans-serif;
+  font-family: Montserrat-Regular, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: antialiased;
   text-align: center;
@@ -113,25 +138,11 @@ export default {
 
 body {
   margin: 0;
-  font-family: "Lexend-Regular", "Helvetica Neue", sans-serif !important;
+  font-family: Montserrat-Regular, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-height: 100vh;
   height: calc(100vh - 81px - 54px);
-}
-
-.container {
-  height: calc(80vh - 80px);
-}
-
-h1 {
-  font-family: "Lexend-Bold", "Helvetica Bold", sans-serif;
-  margin: 0;
-}
-
-h5 {
-  font-family: "Lexend-Regular", "Helvetica Neue", sans-serif;
-  font-size: 16px;
 }
 
 button {
