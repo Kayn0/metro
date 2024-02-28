@@ -1,131 +1,150 @@
 <template>
 <div id="online-bookings">
-  <div class="page">
-    <div class="page-center">
+  <div class="page colour-bg">
+    <div>
       <h1>Online Bookings Platform</h1>
-      <h5>Modernising an Online Bookings Platform for the Allied Health Industry</h5>
+      <h6>Modernising Online Bookings for the Allied Health Industry</h6>
       <img class="ob-hero" src="../../assets/images/ob-hero.png" alt="Online Booking Platform Examples" />
     </div>
   </div>
 
-  <div class="page no-bg vert-space-lge">
-    <div class="page-two-third">
-      <div class="content">
-        <h1>Overview</h1>
-        <h5>Background</h5>
-        <p>
-          Included as part of the service Nookal provides is an Online Bookings system. Customers of Nookal can obtain a hyperlink or button that can be included on their website or in emails which allows their clients to book services online.
-        </p>
-
-        <h5>Problem</h5>
-        <p>
-          The Online Booking System that was currently being used was already several years old and since that time the customers expectations had changed. It was also noted that the system’s look and feel had become outdated and needed a refresh.
-        </p>
-
-        <h5>My Impact</h5>
-        <p>
-          Being the solo UX/UI designer on this project I wanted to obtain a clear understanding of what was the industry standards in terms of Online Bookings Platforms for the Allied health Industry. My research was able to guide me documenting the requirements and creating iterations of low resolutions mockups. Once the overall concept was approved by all relevant Stakeholders I was able to move on to high resolution mockups, prototypes and user testing.
-        </p>
-
-        <h5>Goals</h5>
-        <p>
-          Modernising the UX/UI the Online Bookings Platform, whilst putting our clients and their customers at the forefront of my design decisions. As the current system is being used by over 100K users every day, it was vital that any changes did not remove any of the current functionality and adding functionality did not cause unnecessary confusion when setting up the system for our clients, or making a booking for their customers.
-        </p>
-      </div>
+  <div class="page">
+    <div class="content">
+      <h5>Background</h5>
+      <p class="space-btm-med">
+        Included as part of the service Nookal provides is an Online Bookings system. Customers of Nookal can obtain a hyperlink or button that can be included on their website or in emails which allows their patients to book services online.
+      </p>
+      <h5>Problem</h5>
+      <p class="space-btm-med">
+        The Online Booking System was already several years old and since its creation the customers expectations, wants and needs had changed significantly. It was clear that the system’s look and feel had become outdated and needed a refresh.
+      </p>
+      <h5>Goals</h5>
+      <p>
+        As the current system is being used by over 50K users every day, it was vital that any changes did not remove any functionality. I wanted to gain insights during the research phase to understand what features would be most beneficial to include. Lastly I wanted to create a modern interface and user experience for the Online Bookings Platform, by putting our customers and their patients at the forefront of my design decisions.
+      </p>
     </div>
+  </div>
 
-    <div class="page-one-third">
-      <div class="box bg-1">
-        <h5>My Role</h5>
-        <ul>
-          <li>UX Researcher</li>
-          <li>UX/UI Designer</li>
-          <li>Branding Design</li>
-          <li>Product Requirements</li>
-          <li>Oversee Development</li>
-        </ul>
+  <div class="page colour-bg break-page">
+    <div class="content">
+      <h5>My Role</h5>
+      <p>Research, user flows & stories, wire-framing, visual design, low & high fidelity mockups,  prototyping, usability testing</p>
+    </div>
+  </div>
+
+  <div class="page">
+    <div class="content space-top-lge">
+      <h2>RESEARCH</h2>
+      <h5>Current State Evaluation</h5>
+      <p>To understand the current experience and pain points in the online booking process, I decided to evaluate the current user flow and review the data and information presented to the end user. Here are some of the most important things that I discovered:</p>
+      <div class="note-holder">
+        <div class="note">
+          The look and feel of our platform on web, tablet and mobile is very outdated.
+        </div>
+        <div class="note">It would be better to separate services and classes, rather than listing them together.</div>
+        <div class="note">The Service and Class details list makes it difficult to find a specific type.</div>
+        <div class="note">The user flow is overly complicated with too many steps.</div>
       </div>
 
-      <div class="box bg-2">
-        <h5>Tools Used</h5>
-        <ul>
-          <li>Figma</li>
-          <li>Invision</li>
-        </ul>
+      <div class="label-heading">
+        Old Online Bookings Interface and User Flow
       </div>
+      <div class="flexed">
+        <div class="stacked-images">
+          <img src="../../assets/images/old-ob-1.png" alt="Make a booking" />
+          <img src="../../assets/images/old-ob-2.png" alt="Select service or class" />
+          <img src="../../assets/images/old-ob-3.png" alt="Select a practitioner" />
+          <img src="../../assets/images/old-ob-4.png" alt="Enter your details" />
+        </div>
 
-      <div class="box bg-3">
-        <h5>UX Techniques</h5>
-        <ul>
-          <li>Round Table Interviews</li>
-          <li>Questionnaires</li>
-          <li>Competitive Analysis</li>
-          <li>Current State Evaluation</li>
-          <li>User Flow Diagrams</li>
-          <li>Low & high res mockups</li>
-          <li>Prototyping</li>
-          <li>Usability Testing</li>
-        </ul>
+        <div class="">
+          <img class="old-flow" src="../../assets/images/ob-old-flow.png" alt="Online Bookings old user flow" />
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="page vert-space-lge">
-    <div class="page-two-third top">
-      <div class="content">
-        <h1>Understand</h1>
-        <h5>Current State Evaluation</h5>
-        <p>To understand the current experience and pain points in the online booking process, I decided to evaluate the current user flow and review the data amd information presented to the end user.   Here are some of the most important things that I discovered: </p>
-
-         <ul>
-           <li>The look and feel of our platform is very outdated.</li>
-           <li>To reduce the cognitive load on the user it would be better to separate services and classes, rather than listing them together.</li>
-           <li>The Service and Class information is shown as a text list and needs improvement to enable our clients to sell their services and classes more effectively.</li>
-           <li>The user flow is overly complicated with too many steps and no customisation options.</li>
-         </ul>
-      </div>
-    </div>
-
-    <div class="page-one-third">
-      <div class="content">
-        <img class="old-flow" src="../../assets/images/ob-old-flow.png" alt="Online Bookings old user flow" />
-      </div>
-    </div>
-  </div>
 
   <div class="page no-bg space-top-lge space-btm-lge vert-space-lge">
     <div class="content">
-      <h1>Understand</h1>
-
       <h5>Competitive Analysis</h5>
-      <p>Next I started competitive analysis by reviewing several of our competitors that were offering similar online booking services. I completed a deep dive of our competitor’s by reviewing each product in detail by reviewing the sites features and ease of use. This gave me a good understanding of the current standard for online booking systems in terms of the feature set and end user expectations. The competitors I reviewed included:</p>
+      <p>Next I started competitive analysis by reviewing several of our main competitors that were offering similar online booking services. This gave me a solid grounding for understanding the current standards of online booking systems in terms of the features and user expectations. These were the platforms I reviewed:</p>
       <div class="image-content">
-        <div class="image">
-          <h5>Mindbody</h5>
-          <h6><a href="https://www.mindbodyonline.com/explore">https://www.mindbodyonline.com</a></h6>
-          <img class="screenshot" src="../../assets/images/ob-mind-body.png" alt="Mind and Body screenshot" />
+
+        <a class="label-heading" href="https://www.mindbodyonline.com/explore">mindbody</a>
+        <img class="screenshot" src="../../assets/images/ob-mind-body.png" alt="Mind and Body screenshot" />
+        <div class="flexed">
+          <div class="boxed">
+            <h6>Strengths</h6>
+            <ul>
+              <li>Easy to use search feature with sub categories for a quick searching.</li>
+              <li>Easy to use search based on location.</li>
+              <li>Companies can offer deals and discounts on services.</li>
+            </ul>
+          </div>
+          <div class="boxed">
+            <h6>Weaknesses</h6>
+            <ul>
+              <li>Overly complicated company page.</li>
+              <li>Service and class date selector is limited in functionality.</li>
+              <li>Distance is calculated in miles.</li>
+            </ul>
+          </div>
         </div>
-        <div class="image">
-          <h5>Health Engine</h5>
-          <h6><a href="https://healthengine.com.au/">https://www.healthengine.com.au</a></h6>
-          <img class="screenshot" src="../../assets/images/ob-health-engine.png" alt="HealthEngine screenshot" />
+
+        <a class="label-heading" href="https://healthengine.com.au/">Health Engine</a>
+        <img class="screenshot" src="../../assets/images/ob-health-engine.png" alt="HealthEngine screenshot" />
+        <div class="flexed">
+          <div class="boxed">
+            <h6>Strengths</h6>
+            <ul>
+              <li>Easy to find a specific category of healthcare.</li>
+              <li>The Booking appointment modal is easy to use.</li>
+              <li>Search in the navbar is very user friendly for navigating the site.</li>
+            </ul>
+          </div>
+          <div class="boxed">
+            <h6>Weaknesses</h6>
+            <ul>
+              <li>Messy service and class UI listing</li>
+              <li>Site contains many ads.</li>
+              <li>Practice information page layout and interface is cluttered making it hard to read.</li>
+            </ul>
+          </div>
         </div>
-        <div class="image">
-          <h5>HotDoc</h5>
-          <h6><a href="https://www.hotdoc.com.au/">https://www.hotdoc.com.au/</a></h6>
-          <img class="screenshot" src="../../assets/images/ob-hotdoc.png" alt="Hotdoc screenshot" />
+
+        <a class="label-heading" href="https://www.hotdoc.com.au/">HotDoc</a>
+        <img class="screenshot" src="../../assets/images/ob-hotdoc.png" alt="Hotdoc screenshot" />
+        <div class="flexed">
+          <div class="boxed">
+            <h6>Strengths</h6>
+            <ul>
+              <li>Popular search categories for quick searching.</li>
+              <li>Easy to see available times for a service.</li>
+              <li>Great search filters, allowing the user to search by a wide range of types.</li>
+            </ul>
+          </div>
+          <div class="boxed">
+            <h6>Weaknesses</h6>
+            <ul>
+              <li>Appointment time selection is overly complicated.</li>
+              <li>Company details page is cluttered.</li>
+              <li>Inconsistent button height and style.</li>
+            </ul>
+          </div>
         </div>
       </div>
 
 
-      <p class="space-top-sml">I finalised this process by completing a SWOT analysis, which further highlighted areas that our Online Bookings Platform was falling behind competitors. These include:</p>
-      <ul>
-        <li>Modern user interface</li>
-        <li>Improved input interactions and validation</li>
-        <li>Expanded Practitioner and Location searching</li>
-        <li>Ability to filter services and classes by category type</li>
-        <li>Additional location, practitioner, service and class information</li>
-      </ul>
+      <p class="space-top-med">The research highlighted areas where our Online Bookings Platform had fallen behind our competitors. To ensure the new platform was successful my solutions would have to ensure the following:</p>
+      <div class="flexed-col">
+        <div class="points">Modern user interface</div>
+        <div class="points">Improved input interactions and validation</div>
+        <div class="points">Expanded Practitioner and Location searching</div>
+        <div class="points">Ability to filter services and classes by category type</div>
+        <div class="points">Additional location, practitioner, service and class information</div>
+      </div>
+
     </div>
   </div>
 
@@ -630,6 +649,7 @@ export default {
   computed: {
     isDisabled: true
   }
+
 }
 
 </script>

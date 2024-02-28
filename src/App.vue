@@ -101,13 +101,16 @@ export default {
   url(./assets/fonts/Lato-Regular.ttf) format("truetype");
 }
 
-
 @font-face {
   font-family: "Montserrat-Bold";
   src: local("Montserrat-Bold"),
   url(./assets/fonts/Montserrat-Bold.otf) format("opentype");
 }
-
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"),
+  url(./assets/fonts/Montserrat-Bold.otf) format("opentype");
+}
 @font-face {
   font-family: "Montserrat-Regular";
   src: local("Montserrat-Regular"),
@@ -117,7 +120,7 @@ export default {
 @font-face {
   font-family: "Montserrat-Light";
   src: local("Montserrat-Light"),
-  url(./assets/fonts/Montserrat-Regular.otf) format("opentype");
+  url(./assets/fonts/Montserrat-Light.otf) format("opentype");
 }
 
 @font-face {
@@ -127,9 +130,9 @@ export default {
 }
 
 #app {
-  font-family: Montserrat-Regular, sans-serif;
+  font-family: "Montserrat-Light", sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #333333;
   width: 100%;
@@ -138,19 +141,79 @@ export default {
 
 body {
   margin: 0;
-  font-family: Montserrat-Regular, sans-serif !important;
+  font-family: "Montserrat-Light", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   max-height: 100vh;
   height: calc(100vh - 81px - 54px);
 }
 
+h1 {
+  font-size: 32px;
+  margin: 0 0 10px;
+}
+
+h2 {
+  color: #F26101;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 24px;
+  margin: 0 0 30px;
+}
+
+h5 {
+  color: #304269;
+  font-size: 16px;
+  font-family: "Montserrat-Bold", sans-serif;
+  line-height: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+h6 {
+  font-size: 16px;
+  font-family: "Montserrat-Light", Helvetica, sans-serif;
+  margin: 0 0 60px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Montserrat-Light", sans-serif;
+  line-height: 40px;
+  margin: 0;
+}
+
+.label-heading {
+  align-items: center;
+  background: #304269;
+  border-radius: 2px;
+  color: #FFFFFF;
+  display: flex;
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 16px;
+  height: 52px;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 0 30px;
+  width: fit-content;
+  transition: text-decoration 0.3s ease;
+  }
+
+  .label-heading a:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+  }
+
+
 button {
   outline: none;
 }
 
 .space-top-lge {
-  padding-top: 100px;
+  padding-top: 120px;
+}
+.space-top-med {
+  padding-top: 60px;
 }
 
 .space-top-sml {
@@ -215,6 +278,7 @@ button {
 
 .flexed {
   display: flex;
+  flex-direction: row;
 }
 
 @media only screen and (max-width: 1000px) {
