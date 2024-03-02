@@ -1,4 +1,4 @@
-#online-bookings, #sales-dashboard {
+#online-bookings, #sales-dashboard, #clinical-notes {
 
   h1 {
     font-family: Montserrat-Regular, sans-serif;
@@ -28,6 +28,10 @@
 
     &.colour-bg {
       background: linear-gradient(135deg, #B6FFDC, #90F1FE);
+      min-height: 90vh;
+    }
+    &.colour-bg-alt {
+      background: linear-gradient(135deg, #F1F5D9, #FFE6C0);
       min-height: 90vh;
     }
 
@@ -92,6 +96,8 @@
         max-width: 120px;
         padding: 15px;
       }
+
+
 
       .stacked-images {
         display: flex;
@@ -239,41 +245,39 @@
           text-decoration: underline;
         }
       }
-
-    .flexed {
-      justify-content: space-between;
-      margin-top: 10px;
-      .boxed {
-        background: #ECF2F5;
-        border-radius: 2px;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        color: #222222;
-        flex: 1;
-        font-family: "Montserrat-Light", sans-serif;
-        font-size: 14px;
-        justify-content: space-between;
-        line-height: 20px;
-        max-width: calc(310px - 60px);
-        padding: 30px;
-
-        h6 {
-          font-size: 14px;
-          font-family: "Montserrat-Bold", sans-serif;
-          margin: 0;
-        }
-      }
-
-      .boxed:last-child {
-        background: #F1F9F9;
-        flex: 1;
-      }
-    }
-
     img {
         width: 100%;
         height: auto;
       }
     }
+  .flexed {
+    justify-content: space-between;
+    margin-top: 10px;
+    .boxed {
+      background: #ECF2F5;
+      border-radius: 2px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      color: #222222;
+      flex: 1;
+      font-family: "Montserrat-Light", sans-serif;
+      font-size: 14px;
+      justify-content: space-between;
+      line-height: 24px;
+      max-width: calc(310px - 60px);
+      padding: 30px;
+
+      h6 {
+        font-size: 14px;
+        font-family: "Montserrat-Bold", sans-serif;
+        margin: 0;
+      }
+    }
+
+    .boxed:last-child {
+      background: #F1F9F9;
+      flex: 1;
+    }
+  }
   .personas {
     display: flex;
     padding-top: 40px;
@@ -303,6 +307,7 @@
   .tablet-holder {
     margin-bottom: 40px;
   }
+
   .tablet-holder, .mobile-holder {
     display: flex;
     flex-wrap: wrap;
@@ -348,6 +353,7 @@
     padding: 0 20px;
     display: flex;
     max-width: max-content;
+    line-height: 20px;
     &.alt {
       background: #DCF0F1;
     }

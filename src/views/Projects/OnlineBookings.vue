@@ -362,8 +362,8 @@
         <img class="mobile" src="../../assets/images/mobile-1.png" alt="Mobile homepage example" />
         <img class="mobile" src="../../assets/images/mobile-2.png" alt="Mobile example of Location Selection" />
         <img class="mobile" src="../../assets/images/mobile-3.png" alt="Mobile example of Practitioner Selection" />
-        <img class="mobile" src="../../assets/images/mobile-5.png" alt="Mobile example of Booking Details" />
         <img class="mobile" src="../../assets/images/mobile-4.png" alt="Mobile example of Appointment Selection" />
+        <img class="mobile" src="../../assets/images/mobile-5.png" alt="Mobile example of Booking Details" />
         <img class="mobile" src="../../assets/images/mobile-6.png" alt="Mobile example of Date Selection" />
         <img class="mobile" src="../../assets/images/mobile-7.png" alt="Mobile example of Time Selection" />
         <img class="mobile" src="../../assets/images/mobile-8.png" alt="Mobile example of Practitioner Selection" />

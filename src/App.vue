@@ -231,7 +231,7 @@ button {
 }
 
 .space-top-sml {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 
 .space-btm-lge {
