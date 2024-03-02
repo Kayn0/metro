@@ -3,11 +3,14 @@
     <div class="container">
 
       <div class="flex-row">
-        <div class="site-header">Hello, I design
+        <div class="site-header">I solve
           <div class="highlight">complex</div>
-          user interfaces and experiences.</div>
+          design problems, with simple solutions.</div>
         <div class="button-container">
-          <div class="button">Email Me</div>
+          <div class="button">
+            <font-awesome-icon :icon="['fas', 'envelope']" />
+            <div>EMAIL ME</div>
+          </div>
         </div>
       </div>
 
@@ -16,8 +19,8 @@
         <router-link to="/online-bookings">
           <div class="case">
             <div>
-              <h2>Online Bookings Platform</h2>
-              <h4>Providing Allied Health Patients an enjoyable Online Booking experience.</h4>
+              <h3>Online Bookings Platform</h3>
+              <h4>Modernising the Online Bookings experience for the Allied Health Industry</h4>
             </div>
             <div>
               <img class="ob-bg" src="../../assets/images/ob-bg.png" alt="online bookings hero" />
@@ -28,7 +31,7 @@
         <router-link to="/sales-dashboard">
           <div class="case">
             <div>
-              <h2>Sales Dashboard</h2>
+              <h3>Sales Dashboard</h3>
               <h4>Effectively managing the signup journey for Nookal customers</h4>
             </div>
             <div>
@@ -40,7 +43,7 @@
         <router-link to="/clinical-notes">
           <div class="case">
             <div>
-              <h2>Clinical Notes Redesign</h2>
+              <h3>Clinical Notes Redesign</h3>
               <h4>Supporting Healthcare Practitioners by facilitating a streamlined clinical note taking experience.</h4>
             </div>
             <div>

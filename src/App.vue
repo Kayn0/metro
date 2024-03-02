@@ -134,9 +134,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #333333;
+  color: #222222;
   width: 100%;
-  background: #fafafa;
+  background: #FFFFFF;
 }
 
 body {
@@ -149,31 +149,44 @@ body {
 }
 
 h1 {
+  font-family: "Montserrat-Bold", sans-serif;
   font-size: 32px;
   margin: 0 0 10px;
 }
 
 h2 {
-  color: #F26101;
-  font-family: "Montserrat-Bold", sans-serif;
-  font-size: 24px;
-  margin: 0 0 30px;
+  color: #1D3557;
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0 0 20px;
 }
 
-h5 {
-  color: #304269;
-  font-size: 16px;
+h4 {
+  color: #1D3557;
+  font-size: 20px;
   font-family: "Montserrat-Bold", sans-serif;
-  line-height: 32px;
+  line-height: 44px;
   font-weight: 500;
   margin: 0;
 }
 
+h5 {
+  color: #222222;
+  font-family: "Montserrat-Light", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0 0 70px;
+}
+
 h6 {
   font-size: 16px;
-  font-family: "Montserrat-Light", Helvetica, sans-serif;
-  margin: 0 0 60px;
-  font-weight: 300;
+  font-family: "Montserrat-Bold", Helvetica, sans-serif;
+  font-weight: normal;
+  margin: 0;
+  color: #222222;
+  line-height: 32px;
 }
 
 p {
@@ -185,7 +198,7 @@ p {
 
 .label-heading {
   align-items: center;
-  background: #304269;
+  background: #1D3557;
   border-radius: 2px;
   color: #FFFFFF;
   display: flex;
@@ -210,26 +223,40 @@ button {
 }
 
 .space-top-lge {
-  padding-top: 120px;
+  margin-top: 80px;
 }
+
 .space-top-med {
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 .space-top-sml {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .space-btm-lge {
-  padding-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .space-btm-med {
+  margin-bottom: 60px;
+}
+
+.space-pad-med {
   padding-bottom: 60px;
 }
 
 .space-btm-sml {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.row-images {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #DCF0F1;
+  padding: 30px 0;
 }
 
 .mobile-nav {
@@ -279,7 +306,32 @@ button {
 .flexed {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
+
+
+.flexed-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-space {
+  margin-top: 40px;
+}
+
+.top-space-med {
+  margin-top: 60px;
+}
+
+.top-space-lge {
+  margin-top: 100px;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
 
 @media only screen and (max-width: 1000px) {
   .mobile-nav {

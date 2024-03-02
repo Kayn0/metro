@@ -1,31 +1,33 @@
 #work {
+  background: linear-gradient(0deg, #A8DADC, #F1FAEE);
+  min-height: 100vh;
 
   .container {
     display: flex;
     flex-direction: column;
     max-width: 100vw;
-    padding: 100px 100px 40px;
-    background: linear-gradient(0deg, #91BED4, #D9E8F5);
-
+    padding: 100px 100px 60px;
     .flex-row {
       align-items: flex-start;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin: 20px 0 60px;
+      margin: 20px 0 40px;
       width: 100%;
     }
 
     .site-header {
+      color: #1D3557;
       font-size: 44px;
       font-family: Montserrat-Bold, Arial, sans-serif;
-      max-width: 630px;
+      line-height: 60px;
+      max-width: 740px;
       text-align: left;
       width: 100%;
 
       .highlight {
         display: inline-block;
-        color: #F06408;
+        color: #F14D59;
       }
     }
 
@@ -34,18 +36,26 @@
       margin-top: auto;
       .button {
         align-items: center;
-        background: #F06408;
+        background: #1D3557;
         border-radius: 3px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-        color: #222222;
+        color: #FFFFFF;
         cursor: pointer;
         display: flex;
+        font-family: Montserrat-Regular, sans-serif;
+        font-size: 14px;
         height: 44px;
         justify-content: center;
         width: 150px;
-        transition: box-shadow 0.3s ease;
+        transition: all 0.3s ease;
         &:hover {
           box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+          background: #F14D59;
+        }
+        svg {
+          padding-right: 8px;
+          top: 1px;
+          position: relative;
         }
       }
     }
@@ -79,9 +89,15 @@
       padding: 40px 0 20px 40px;
       margin: 0;
     }
-
+    h3 {
+      color: #1D3557;
+      font-family: "Montserrat-Bold", sans-serif;
+      font-size: 20px;
+      margin: 40px 0 0 40px;
+    }
     h4 {
       font-size: 16px;
+      font-family: "Montserrat-Light", sans-serif;
       font-weight: 300;
       padding-left: 40px;
       margin: 0;

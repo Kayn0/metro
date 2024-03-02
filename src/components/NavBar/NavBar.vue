@@ -1,12 +1,12 @@
 <template>
   <div class="navbar">
     <router-link to="/" class="router">
-      <div class="logo">KANEMASLEN.</div>
-<!--      <img-->
-<!--        class="logo"-->
-<!--        alt="Kane Maslen logo"-->
-<!--        src="../../assets/images/kane-maslen-logo.png"-->
-<!--      />-->
+<!--      <div class="logo">KANEMASLEN.</div>-->
+      <img
+        class="logo"
+        alt="Kane Maslen logo"
+        src="../../assets/images/kane-maslen-logo.png"
+      />
     </router-link>
 
     <div class="nav-links">
