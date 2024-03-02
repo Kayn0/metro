@@ -84,8 +84,155 @@
       </div>
     </div>
 
+    <div class="page vert-space-lge">
+      <div class="content">
+        <h4>Personas</h4>
+        <p>Two personas were created to capture the range of needs and pain points practitioners are having when creating clinical notes.</p>
+        <img class="screenshot space-top-sml" src="../../assets/images/notes/persona-1.png" alt="Persona details" />
+        <img class="screenshot space-top-sml" src="../../assets/images/notes/persona-2.png" alt="Persona details" />
+      </div>
+    </div>
+
+    <div class="page flat-bg vert-space-lge">
+      <div class="content">
+        <h4>Voice To Text</h4>
+        <p>After consultation with stakeholders it was decided to add a voice to text component to facilitate the recording of appointments, whilst speeding up the clinical note taking process. Each text conversion would cost Nookal money so it was necessary that this was covered in the credit charge.</p>
+        <img class="screenshot space-top-sml" src="../../assets/images/notes/voice-flow-chart.png" alt="Voice to text flow chart" />
+        <img class="screenshot space-top-sml" src="../../assets/images/notes/voice-use-case.png" alt="Voice to text use case diagram" />
+      </div>
+    </div>
+
+    <div class="page vert-space-lge">
+      <div class="content">
+        <h2>DEFINE<span>.</span></h2>
+        <h4>Use Cases</h4>
+        <img class="screenshot img-bg" src="../../assets/images/notes/notes-req.png" alt="Clinical note requirements and solutions" />
+      </div>
+    </div>
+
+    <div class="page vert-space-lge">
+      <div class="content">
+        <h2>CREATE<span>.</span></h2>
+        <h4>Wireframes</h4>
+        <p>The research had given me an idea for a general concept in how to present the information to the user. I played around with a few different layout types, until I settled on one that I felt worked the best in terms of page space and presentation.</p>
+      </div>
+    </div>
+    <div class="page flat-bg flexed-col">
+      <div class="content">
+        <div class="image-holder">
+          <div class="label-heading">Clinical Note View</div>
+          <img class="wireframe" src="../../assets/images/sales/sales-wire-1.png" alt="Wireframe dashboard example" />
+          <div class="label-heading">Clinical Note Selector</div>
+          <img class="wireframe" src="../../assets/images/sales/sales-wire-2.png" alt="Wireframe task details example" />
+          <div class="label-heading">Clinical Note Preferences</div>
+          <img class="wireframe" src="../../assets/images/sales/sales-wire-3.png" alt="Wireframe customers page example" />
+          <div class="label-heading">Voice to Text Controls</div>
+          <img class="wireframe" src="../../assets/images/sales/sales-wire-4.png" alt="Wireframe customer details example" />
+        </div>
+      </div>
+    </div>
+
+    <div class="page vert-space-lge-med">
+      <div class="content">
+        <h4>Low Fidelity Mockups</h4>
+        <p>The low fidelity mockups allow me to flesh out the interface with more detail and focus on how concepts for how page elements could interact with the user. The mockups below show the standard user journey when booking an appointment.</p>
+      </div>
+    </div>
+
+    <div class="page flat-bg flexed-col">
+      <div class="content">
+        <div class="image-holder">
+          <div class="label-heading">Clinical Notes</div>
+          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of the Dashboard" />
+          <div class="label-heading">Clinical Note Selector</div>
+          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of Task Details" />
+          <div class="label-heading">Clinical Note Preferences</div>
+          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of the Customers Page" />
+          <div class="label-heading">Voice to Text Controls</div>
+          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of Customer Details" />
+        </div>
+      </div>
+    </div>
+
+    <div class="page vert-space-lge-med">
+      <div class="content">
+        <h2>PROTOTYPE<span>.</span></h2>
+        <h4>High Fidelity Mockups</h4>
+        <div class="image-holder clear-margin">
+          <div class="label-details">
+            <h6>Clinical Notes Page</h6>
+            <p>The new clinical notes page updates the user interface to fit in with site wide design updates, whilst presenting a clean updated look and feel. Some design elements have been kept from the old interface to give the users some familiarity with the page.</p>
+          </div>
+          <img class="hi-res" src="../../assets/images/notes/notes-high-1.png" alt="High fidelity of the Clinical notes page" />
+
+          <div class="label-details">
+            <h6>Clinical Note Selector</h6>
+            <p>The flow for selecting a clinical note has changed to streamline the process. Previously the practitioner would first need be presented with a clinical notes list which they would need to select from. Selecting a clinical note  has now been added to the top of the page, which allows the practitioner to easily view and select clinical notes.</p>
+          </div>
+          <img class="hi-res" src="../../assets/images/notes/notes-high-2.png" alt="High fidelity of Practitioner Selection" />
+
+          <div class="label-details">
+            <h6>Clinical Note Preferences</h6>
+            <p>Another problem practitioners were having when selecting a clinical note was the large number of options to select from. Research showed that practitioners only need a faction of what was being presented. To solve this issue I added Clinical Note preferences, so practitioners can easily turn clinical notes on or off for them to use.</p>
+          </div>
+          <img class="hi-res" src="../../assets/images/notes/notes-high-3.png" alt="High fidelity of Customer Flow" />
+
+          <div class="label-details">
+            <h6>Voice to Text</h6>
+            <p>When designing the voice to text it was important that it would integrate seamlessly within the current clinical notes system. The following mockups show the steps a user would take to record their voice, check the results and choose to convert it to text within a clinical note. Voice to text solves the problem users were having wanting to record their appointments and helps to speeding up the note taking process.</p>
+          </div>
+          <img class="hi-res" src="../../assets/images/notes/notes-high-4.png" alt="High fidelity of the voice to text flow" />
+          <img class="hi-res" src="../../assets/images/notes/notes-high-5.png" alt="High fidelity of the voice to text flow" />
+          <img class="hi-res" src="../../assets/images/notes/notes-high-6.png" alt="High fidelity of the voice to text flow" />
+          <img class="hi-res" src="../../assets/images/notes/notes-high-7.png" alt="High fidelity of the voice to text flow" />
+          <img class="hi-res" src="../../assets/images/notes/notes-high-8.png" alt="High fidelity of the voice to text flow" />
+
+          <div class="label-details">
+            <h6>Snippets</h6>
+            <p>Snippets provide a way for a user to save commonly used phrases or abbreviations to then be used later within clinical notes.  This solves the problem practitioners were having often rewriting similar notes for many patients, and helps the process users were having writing clinical notes on tablets and phones.</p>
+          </div>
+          <img class="hi-res" src="../../assets/images/notes/notes-high-9.png" alt="High fidelity of adding a snippet" />
+          <img class="hi-res" src="../../assets/images/notes/notes-high-10.png" alt="High fidelity of adding a snippet" />
+        </div>
+      </div>
+    </div>
+
+    <div class="page no-bg vert-space-lge-med">
+      <div class="content">
+        <h4>Tablet and Mobile</h4>
+        <p>The old tablet and mobile experience was difficult to use and needed a dramatic upgrade. I followed the same process for web when creating the Low, Medium and High Fidelity Mockups. In addition I used a material design, design pattern when deciding on how elements should look and interact.</p>
+      </div>
+    </div>
+
+    <div class="row-images notes">
+      <div class="tablet-holder">
+        <img class="tablet" src="../../assets/images/notes/notes-tablet-1.png" alt="Tablet example of the clinical notes page" />
+        <img class="tablet" src="../../assets/images/notes/notes-tablet-2.png" alt="Tablet example of the Tasks list" />
+        <img class="tablet" src="../../assets/images/notes/notes-tablet-3.png" alt="Tablet example of Task details" />
+        <img class="tablet" src="../../assets/images/notes/notes-tablet-4.png" alt="Tablet example of Customers List" />
+        <img class="tablet" src="../../assets/images/notes/notes-tablet-5.png" alt="Tablet example of Customers List" />
+      </div>
+
+      <div class="mobile-holder">
+        <img class="mobile" src="../../assets/images/notes/notes-mobile-1.png" alt="Mobile homepage example" />
+        <img class="mobile" src="../../assets/images/notes/notes-mobile-2.png" alt="Mobile example of Location Selection" />
+        <img class="mobile" src="../../assets/images/notes/notes-mobile-3.png" alt="Mobile example of Practitioner Selection" />
+        <img class="mobile" src="../../assets/images/notes/notes-mobile-4.png" alt="Mobile example of Appointment Selection" />
+        <img class="mobile" src="../../assets/images/notes/notes-mobile-5.png" alt="Mobile example of Booking Details" />
+      </div>
+    </div>
 
 
+    <div class="page vert-space-lge-med">
+      <div class="content">
+        <h2>TEST<span>.</span></h2>
+        <h4>Usability Testing</h4>
+        <p>TODO</p>
+
+        <h4 class="space-top-med">Conclusion</h4>
+        <p>TODO</p>
+      </div>
+    </div>
 
   </div>
 

@@ -148,15 +148,15 @@
           <div class="label-heading">Dashboard</div>
           <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of the Dashboard" />
           <div class="label-heading">Task Details</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of Task Details" />
+          <img class="wireframe" src="../../assets/images/sales/sales-low-2.png" alt="Low fidelity of Task Details" />
           <div class="label-heading">Customers Page</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of the Customers Page" />
+          <img class="wireframe" src="../../assets/images/sales/sales-low-3.png" alt="Low fidelity of the Customers Page" />
           <div class="label-heading">Customer Details</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of Customer Details" />
+          <img class="wireframe" src="../../assets/images/sales/sales-low-4.png" alt="Low fidelity of Customer Details" />
           <div class="label-heading">Conversions Page</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of Conversions" />
+          <img class="wireframe" src="../../assets/images/sales/sales-low-5.png" alt="Low fidelity of Conversions" />
           <div class="label-heading">Notifications Page</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-low-1.png" alt="Low fidelity of Notifications" />
+          <img class="wireframe" src="../../assets/images/sales/sales-low-6.png" alt="Low fidelity of Notifications" />
         </div>
       </div>
     </div>
