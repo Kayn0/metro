@@ -12,7 +12,7 @@
     <div class="nav-links">
       <router-link to="/" @click="disableDropdown()">Work</router-link>
       <router-link to="/about" v-on:click="disableDropdown()">About</router-link>
-      <router-link to="/contact" v-on:click="disableDropdown()">Resume</router-link>
+      <a href="/kane-maslen-resume.pdf" download="kane-maslen-resume.pdf">Resume</a>
     </div>
   </div>
 </template>

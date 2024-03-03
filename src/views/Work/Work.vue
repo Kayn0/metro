@@ -20,6 +20,7 @@
             <div>
               <h3>Online Bookings Platform</h3>
               <h4>Modernising the online bookings experience for the Allied Health industry</h4>
+              <p>14 min read</p>
             </div>
             <div>
               <img class="ob-bg" src="../../assets/images/work-ob.png" alt="online bookings hero" />
@@ -32,6 +33,7 @@
             <div>
               <h3>Sales Dashboard</h3>
               <h4>Effectively managing the signup journey for Nookal customers</h4>
+              <p>10 min read</p>
             </div>
             <div>
               <img class="ob-bg" src="../../assets/images/work-sales.png" alt="online bookings hero" />
@@ -44,6 +46,7 @@
             <div>
               <h3>Clinical Notes Redesign</h3>
               <h4>Supporting Healthcare practitioners by facilitating streamlined clinical notes</h4>
+              <p>8 min read</p>
             </div>
             <div>
               <img class="ob-bg" src="../../assets/images/work-notes.png" alt="online bookings hero" />

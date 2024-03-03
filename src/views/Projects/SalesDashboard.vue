@@ -229,7 +229,7 @@
     <div class="page no-bg vert-space-lge-med">
       <div class="content">
         <h4>Tablet and Mobile</h4>
-        <p>The majority of staff planned to use the platform on a desktop, however some staff had reported the need for portable solutions. Some staff wanted to check their task list before coming to work each doy and other were on the road and needed to look up customer information. To accommodate these requests a the was also designed and developed for tablet and mobile devices.</p>
+        <p>The majority of staff planned to use the platform on a desktop, however some staff had reported the need for portable solutions. Some staff wanted to check their task list before coming to work each day and other were on the road and needed to look up customer information. To accommodate these requests a the was also designed and developed for tablet and mobile devices.</p>
       </div>
     </div>
 
