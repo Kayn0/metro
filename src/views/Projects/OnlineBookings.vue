@@ -3,7 +3,7 @@
   <div class="page colour-bg">
     <div>
       <h1>Online Bookings Platform</h1>
-      <h5>Modernising the Online Bookings experience for the Allied Health Industry</h5>
+      <h5>Modernising the online bookings experience for the Allied Health industry</h5>
       <img class="ob-hero" src="../../assets/images/ob-hero.png" alt="Online Booking Platform Examples" />
     </div>
   </div>

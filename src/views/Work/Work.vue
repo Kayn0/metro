@@ -7,7 +7,7 @@
           <div class="highlight">complex</div>
           design problems, with simple solutions.</div>
         <div class="button-container">
-          <div class="button">
+          <div class="button" onclick="location.href='mailto:kanemaslen@gmail.com';">
             <font-awesome-icon :icon="['fas', 'envelope']" />
             <div>EMAIL ME</div>
           </div>
@@ -20,10 +20,10 @@
           <div class="case">
             <div>
               <h3>Online Bookings Platform</h3>
-              <h4>Modernising the Online Bookings experience for the Allied Health Industry</h4>
+              <h4>Modernising the online bookings experience for the Allied Health industry</h4>
             </div>
             <div>
-              <img class="ob-bg" src="../../assets/images/ob-bg.png" alt="online bookings hero" />
+              <img class="ob-bg" src="../../assets/images/work-ob.png" alt="online bookings hero" />
             </div>
           </div>
         </router-link>
@@ -35,7 +35,7 @@
               <h4>Effectively managing the signup journey for Nookal customers</h4>
             </div>
             <div>
-              <img class="ob-bg" src="../../assets/images/ob-bg.png" alt="online bookings hero" />
+              <img class="ob-bg" src="../../assets/images/work-sales.png" alt="online bookings hero" />
             </div>
           </div>
         </router-link>
@@ -44,10 +44,10 @@
           <div class="case">
             <div>
               <h3>Clinical Notes Redesign</h3>
-              <h4>Supporting Healthcare Practitioners by facilitating a streamlined clinical note taking experience.</h4>
+              <h4>Supporting Healthcare practitioners by facilitating streamlined clinical notes</h4>
             </div>
             <div>
-              <img class="ob-bg" src="../../assets/images/ob-bg.png" alt="online bookings hero" />
+              <img class="ob-bg" src="../../assets/images/work-notes.png" alt="online bookings hero" />
             </div>
           </div>
         </router-link>

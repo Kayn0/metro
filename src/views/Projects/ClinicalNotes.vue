@@ -3,7 +3,7 @@
     <div class="page colour-bg-alt-1">
       <div>
         <h1>Clinical Notes Redesign</h1>
-        <h5>Supporting Healthcare Practitioners by facilitating a streamlined clinical note taking experience.</h5>
+        <h5>Supporting Healthcare practitioners by facilitating streamlined clinical notes</h5>
         <img class="ob-hero" src="../../assets/images/notes/notes-hero.png" alt="Clinical Notes Examples" />
       </div>
     </div>

@@ -62,50 +62,7 @@ export default {
 };
 </script>
 
-// global styles
-
 <style>
-@font-face {
-  font-family: "Helvetica-Light";
-  src: local("Helvetica-Light"),
-    url(./assets/fonts/helvetica-light.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Lexend-Bold";
-  src: local("Lexend-Bold"),
-  url(./assets/fonts/Lexend-Bold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Lexend-Regular";
-  src: local("Lexend-Regular"),
-  url(./assets/fonts/Lexend-Regular.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Lexend-Light";
-  src: local("Lexend-Light"),
-  url(./assets/fonts/Lexend-Light.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Lato-Bold";
-  src: local("Lato-Bold"),
-  url(./assets/fonts/Lato-Bold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Lato-Regular";
-  src: local("Lato-Regular"),
-  url(./assets/fonts/Lato-Regular.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: "Montserrat-Bold";
-  src: local("Montserrat-Bold"),
-  url(./assets/fonts/Montserrat-Bold.otf) format("opentype");
-}
 @font-face {
   font-family: "Montserrat-Bold";
   src: local("Montserrat-Bold"),
@@ -121,12 +78,6 @@ export default {
   font-family: "Montserrat-Light";
   src: local("Montserrat-Light"),
   url(./assets/fonts/Montserrat-Light.otf) format("opentype");
-}
-
-@font-face {
-  font-family: "Oswald-Regular";
-  src: local("Oswald-Regular"),
-  url(./assets/fonts/oswald-regular.ttf) format("truetype");
 }
 
 #app {

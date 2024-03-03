@@ -83,6 +83,10 @@
     width: 100%;
     margin-top: 20px;
     justify-content: space-between;
+    transition: box-shadow 0.3s ease;
+    &:hover {
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
 
     h2 {
       font-size: 24px;
@@ -99,8 +103,9 @@
       font-size: 16px;
       font-family: "Montserrat-Light", sans-serif;
       font-weight: 300;
+      line-height: 24px;
       padding-left: 40px;
-      margin: 0;
+      margin: 10px 0 0;
       color: #979797;
     }
     .ob-bg {

@@ -264,7 +264,8 @@
         <img class="hi-res" src="../../assets/images/sales/sales-dash-nav.png" alt="High fidelity improved navigation" />
 
         <h4 class="space-top-med">Conclusion</h4>
-        <p>TODO</p>
+        <p>The dashboard has been a huge success within the sales team and has been incorporated into everyday use. Sales processes have been put in place around the dashboard and we have seen an increase in converting trials to subscriptions by 14%. In addition the average response time to enquiries has improved by 26%, demonstrating that the platform provides the tools for sales staff to effectively manage clients in the signup journey.</p>
+        <p class="space-top-sml">Working closely with the sales team through all phases of the project, showed me the benefits of consistent communication. This was instrumental to ensuing that the functionality, interactions and work flow matched the needs of the end user.</p>
       </div>
     </div>
   </div>
