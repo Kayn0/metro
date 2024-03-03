@@ -1,7 +1,6 @@
 <template>
   <div id="work">
     <div class="container">
-
       <div class="flex-row">
         <div class="site-header">I solve
           <div class="highlight">complex</div>
@@ -60,7 +59,10 @@
 
 <script>
 export default {
-  name: "Work.vue"
+  name: "Work.vue",
+  created() {
+    document.title = "Kane Maslen Portfolio";
+  },
 }
 </script>
 

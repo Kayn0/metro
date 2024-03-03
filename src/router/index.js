@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Work from '../views/Work/Work.vue'
 import About from '../views/About/About.vue'
-import Contact from '../views/Contact/Contact.vue'
 
 import OnlineBookings from '../views/Projects/OnlineBookings.vue'
 import SalesDashboard from '../views/Projects/SalesDashboard.vue'
@@ -18,11 +17,6 @@ const routes = [
     path: '/about',
     name: 'About',
     component: About,
-  },
-  {
-    path: '/contact',
-    name: 'Contact',
-    component: Contact
   },
   {
     path: '/online-bookings',

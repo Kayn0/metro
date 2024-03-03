@@ -1,4 +1,4 @@
-#online-bookings, #sales-dashboard, #clinical-notes {
+#online-bookings, #sales-dashboard, #clinical-notes, #about {
 
   h1 {
     font-family: Montserrat-Regular, sans-serif;
@@ -33,6 +33,11 @@
     &.colour-bg-alt {
       background: linear-gradient(135deg, #F1F5D9, #FFE6C0);
       min-height: 90vh;
+    }
+    &.colour-bg, &.colour-bg-alt, &.colour-bg-alt-1 {
+      &.conclusion {
+        min-height: auto;
+      }
     }
 
     &.flat-bg {

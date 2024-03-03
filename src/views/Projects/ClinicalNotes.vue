@@ -223,24 +223,31 @@
     </div>
 
 
-    <div class="page vert-space-lge-med">
+    <div class="page vert-space-lge">
       <div class="content">
         <h2>TEST<span>.</span></h2>
         <h4>Usability Testing</h4>
-        <p>TODO</p>
-
-        <h4 class="space-top-med">Conclusion</h4>
-        <p>TODO</p>
+        <p>Usability testing was completed remotely, giving the user tasks to compete and recording the results over video. Usability testing results were much improved from the old version with time taken to complete tasks being reduced, especially around taking longer notes. </p>
+        <p class="space-top-sml"> There were some significant changes to the clinical notes section, so I had some concerns this would frustrate current users. However during usability testing, uses were impressed by the improved look, feel and simplified workflow. </p>
       </div>
     </div>
 
+    <div class="page vert-space-lge-med colour-bg-alt-1 conclusion">
+      <div class="content">
+        <h4>Conclusion</h4>
+        <p>This project has been successful in updating the look and feel and functionality of a critical component in the Nookal platform. Since its release the number of requests from support around clinical note improvements has decreased by 37% over the first 6 months. There has also been an increase of the number of credits being spent with the introduction of voice to text, further increasing to the revenue of the business. </p>
+      </div>
+    </div>
   </div>
 
 </template>
 
 <script>
 export default {
-  name: "ClinicalNotes"
+  name: "ClinicalNotes",
+  created() {
+    document.title = "Clinical Notes Redesign";
+  },
 }
 </script>
 

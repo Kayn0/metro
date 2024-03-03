@@ -382,8 +382,11 @@
         <div class="points alt">The option to show or hide qualification information for practitioners.</div>
         <div class="points alt">In the web view the default setting when selecting a date is the month view over the week view.</div>
       </div>
-
-      <h4 class="space-top-med ">Conclusion</h4>
+    </div>
+  </div>
+  <div class="page vert-space-lge-med colour-bg conclusion">
+    <div class="content">
+      <h4>Conclusion</h4>
       <p>While working on this project I learnt to lean on the information discovered during the Understand phase. This allowed me to not rely on preconceived ideas I had break away from the layout issues plaguing the initial version, especially for tablet and mobile. I thoroughly enjoyed the Usability phase, as it allowed me to take on valuable feedback which only helped to improve the end-users experience.</p>
     </div>
   </div>
@@ -394,6 +397,9 @@
 <script>
 export default {
   name: "OnlineBookings",
+  created() {
+    document.title = "Online Bookings";
+  },
   computed: {
     isDisabled: true
   }
