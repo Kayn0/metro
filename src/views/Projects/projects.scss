@@ -364,3 +364,84 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #online-bookings, #sales-dashboard, #clinical-notes {
+    .page {
+      width: calc(100% - 40px);
+      padding: 0 20px;
+      &.break-page-med {
+        padding: 20px 20px !important;
+      }
+      &.vert-space-lge {
+        padding: 60px 20px 20px !important;
+      }
+      &.vert-space-lge-med {
+        padding: 20px 20px !important;
+      }
+      &.vert-space-lge-alt {
+        padding: 20px 20px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 652px) {
+  #online-bookings, #sales-dashboard, #clinical-notes {
+    .page {
+      min-height: auto;
+      .old-flow {
+        padding-bottom: 20px;
+      }
+      .personas {
+        flex-direction: column;
+        .persona {
+          padding: 20px 0;
+        }
+      }
+      .flexed {
+        flex-direction: column;
+        .note {
+          margin-bottom: 10px !important;
+        }
+      }
+      .info-card {
+        height: auto !important;
+      }
+      .note {
+        height: auto;
+      }
+    }
+  }
+  #about .flex-row .content {
+    flex-direction: column !important;
+    align-items: center;
+    padding: 0 40px;
+    .left {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 420px) {
+  #online-bookings, #sales-dashboard, #clinical-notes {
+    .page {
+      &.colour-bg, &.colour-bg-alt, &.colour-bg-alt-1 {
+        min-height: 60vh !important;
+      }
+
+      .flexed.top-space {
+        flex-direction: column;
+        align-items: center;
+        .note {
+          margin-bottom: 10px;
+        }
+      }
+      .points {
+        height: auto;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
