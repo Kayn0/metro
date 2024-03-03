@@ -1,7 +1,6 @@
 <template>
   <div class="navbar">
     <router-link to="/" class="router">
-<!--      <div class="logo">KANEMASLEN.</div>-->
       <img
         class="logo"
         alt="Kane Maslen logo"

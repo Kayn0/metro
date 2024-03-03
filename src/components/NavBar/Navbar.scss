@@ -1,18 +1,11 @@
-.nav-bar {
-  
-}
-
 .navbar.web-nav .active {
     display: flex !important;
     visibility: visible;
 }
 
 .logo {
-    font-family: Oswald-Regular, sans-serif;
     padding: 10px;
-    font-size: 20px;
     width: 134px;
-    color: #304269;
 }
 
 .navbar.web-nav .nav-links .active a {
@@ -85,10 +78,7 @@ a.router-link-exact-active {
     background: #A8DADC;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     height: 44px;
-}
-
-a.router-link-exact-active {
-    //color: #fff!important;
+    color: #222222!important;
 }
 
 .nav-link:hover,

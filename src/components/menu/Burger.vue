@@ -59,7 +59,7 @@ button:focus {
 }
 
 .burger-bar {
-  background-color: #eee;
+  background-color: #F14D59;
   position: absolute;
   top: 50%;
   right: 6px;
@@ -99,7 +99,7 @@ button:focus {
 }
 
 #burger.active .burger-bar {
-  background-color: #fff;
+  background-color: #F14D59;
 }
 
 #burger.active .burger-bar--1 {

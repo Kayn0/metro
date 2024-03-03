@@ -20,7 +20,7 @@
       </p>
       <h4>Goals</h4>
       <p>
-        As the current system is being used by over 50K users every day, it was vital that any changes did not remove any functionality. I wanted to gain insights during the research phase to understand what features would be most beneficial to include. Lastly I wanted to create a modern interface and user experience for the Online Bookings Platform, by putting our customers and their patients at the forefront of my design decisions.
+        As the current system is being used by over fifty thousand users every day, it was vital that any changes did not remove any functionality. I wanted to gain insights during the research phase to understand what features would be most beneficial to include. Lastly I wanted to create a modern interface and user experience for the Online Bookings Platform, by putting our customers and their patients at the forefront of my design decisions.
       </p>
     </div>
   </div>

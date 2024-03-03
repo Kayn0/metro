@@ -215,16 +215,17 @@ button {
 }
 
 .main-nav {
-  justify-content: space-between;
-  padding: 0;
-  width: 100%;
-  background: #19292e;
-  border-bottom: 1px solid #2fc9d3;
-  color: #fff;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: #222222;
   display: flex;
   font-size: 16px;
-  height: 80px;
-  text-transform: uppercase;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  justify-content: space-between;
 }
 
 .main-nav a.router-link-exact-active {

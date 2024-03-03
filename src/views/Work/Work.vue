@@ -16,7 +16,7 @@
       <div class="cases">
 
         <router-link to="/online-bookings">
-          <div class="case">
+          <div class="case img-1">
             <div>
               <h3>Online Bookings Platform</h3>
               <h4>Modernising the online bookings experience for the Allied Health industry</h4>
@@ -29,7 +29,7 @@
         </router-link>
 
         <router-link to="/sales-dashboard">
-          <div class="case">
+          <div class="case img-2">
             <div>
               <h3>Sales Dashboard</h3>
               <h4>Effectively managing the signup journey for Nookal customers</h4>
@@ -42,7 +42,7 @@
         </router-link>
 
         <router-link to="/clinical-notes">
-          <div class="case">
+          <div class="case img-3">
             <div>
               <h3>Clinical Notes Redesign</h3>
               <h4>Supporting Healthcare practitioners by facilitating streamlined clinical notes</h4>
@@ -53,8 +53,6 @@
             </div>
           </div>
         </router-link>
-
-
       </div>
     </div>
   </div>
@@ -64,7 +62,7 @@
 export default {
   name: "Work.vue",
   created() {
-    document.title = "Kane Maslen Portfolio";
+    document.title = "Kane Maslen.";
   },
 }
 </script>

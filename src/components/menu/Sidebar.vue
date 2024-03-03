@@ -5,56 +5,14 @@
       <div v-if="isPanelOpen" class="sidebar-panel">
         <ul class="sidebar-panel-nav">
           <router-link to="/" @click="closeSidebarPanel" v-if="isPanelOpen">
-            Home
-          </router-link>
-
-          <router-link
-            to="/services/buying"
-            @click="closeSidebarPanel"
-            v-if="isPanelOpen"
-          >
-            Buying Property
-          </router-link>
-
-          <router-link
-            to="/services/selling"
-            @click="closeSidebarPanel"
-            v-if="isPanelOpen"
-          >
-            Selling Property
-          </router-link>
-
-          <router-link
-            to="/services/transferring"
-            @click="closeSidebarPanel"
-            v-if="isPanelOpen"
-          >
-            Transferring Property
-          </router-link>
-
-          <router-link
-            to="/services/financing"
-            @click="closeSidebarPanel"
-            v-if="isPanelOpen"
-          >
-            Financing Property
+            Work
           </router-link>
 
           <router-link to="/about" @click="closeSidebarPanel" v-if="isPanelOpen">
             About
           </router-link>
+          <a href="/kane-maslen-resume.pdf" download="kane-maslen-resume.pdf">Resume</a>
 
-          <router-link to="/contact" @click="closeSidebarPanel" v-if="isPanelOpen">
-            Contact
-          </router-link>
-
-          <router-link to="/faq" @click="closeSidebarPanel" v-if="isPanelOpen">
-            FAQ'S
-          </router-link>
-
-          <router-link to="/blog" @click="closeSidebarPanel" v-if="isPanelOpen">
-            Blog
-          </router-link>
         </ul>
       </div>
     </transition>
@@ -98,14 +56,14 @@ export default {
 
 .sidebar-panel {
   overflow-y: auto;
-  background-color: #fff;
+  background-color: #1D3557;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  color: #19292e;
+  color: #FFFFFF;
   position: fixed;
   left: 0;
   top: 0;
   height: 100vh;
-  z-index: 999;
+  z-index: 99999;
   width: 300px;
 }
 
@@ -119,17 +77,10 @@ ul.sidebar-panel-nav {
   transition: all 0.3s ease;
 }
 
-ul.sidebar-panel-nav a:hover {
-  background-color: #d6f7ff;
-}
-
-ul.sidebar-panel-nav .router-link-active:hover {
-  background: #2fc9d3;
-}
 
 a:-webkit-any-link {
   text-decoration: none;
-  color: #19292e;
+  color: #FFFFFF;
 }
 
 ul.sidebar-panel-nav > ul > a {
