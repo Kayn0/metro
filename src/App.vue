@@ -161,6 +161,7 @@ p {
   padding: 0 30px;
   width: fit-content;
   transition: text-decoration 0.3s ease;
+
   }
 
   .label-heading a:hover {
