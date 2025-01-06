@@ -121,13 +121,13 @@
       <div class="content">
         <div class="image-holder">
           <div class="label-heading">Clinical Note View</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-wire-1.png" alt="Wireframe dashboard example" />
+          <img class="wireframe" src="../../assets/images/notes/notes-wire-1.png" alt="Wireframe dashboard example" />
           <div class="label-heading">Clinical Note Selector</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-wire-2.png" alt="Wireframe task details example" />
+          <img class="wireframe" src="../../assets/images/notes/notes-wire-2.png" alt="Wireframe task details example" />
           <div class="label-heading">Clinical Note Preferences</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-wire-3.png" alt="Wireframe customers page example" />
+          <img class="wireframe" src="../../assets/images/notes/notes-wire-3.png" alt="Wireframe customers page example" />
           <div class="label-heading">Voice to Text Controls</div>
-          <img class="wireframe" src="../../assets/images/sales/sales-wire-4.png" alt="Wireframe customer details example" />
+          <img class="wireframe" src="../../assets/images/notes/notes-wire-4.png" alt="Wireframe customer details example" />
         </div>
       </div>
     </div>

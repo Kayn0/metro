@@ -174,7 +174,7 @@ button {
 }
 
 .space-top-lge {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .space-top-med {
@@ -269,7 +269,7 @@ button {
 }
 
 .top-space {
-  margin-top: 40px;
+  margin-top: 40px!important;
 }
 
 .top-space-med {
